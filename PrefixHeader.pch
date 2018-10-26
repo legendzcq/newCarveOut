@@ -1,0 +1,77 @@
+//
+//  PrefixHeader.pch
+//  newCarveOut
+//
+//  Created by 张传奇 on 2018/10/26.
+//  Copyright © 2018 张传奇. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "JLMParam.h"
+#import "UIColor+JTMTool.h"
+
+
+#define kWidth  [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
+#define JLMWindow [UIApplication sharedApplication].keyWindow
+#define kStauBarHeiht [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kUserId      [JLMUserLoginModel account].userid  //用户id
+//相对尺寸
+#define kScaleWidth(width) (width)*(kHeight/667)
+#define kScaleHeight(height) (height)*(kWidth/375)
+// 适配iPhone x 底栏高度
+#define TabbarHeight     ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83:50)
+#define kNaviBarHeight   (44+kStauBarHeiht)
+#define WeakSelf(weakSelf) __weak __typeof(&*self) weakSelf = self;
+#define StrongSelf(strongSelf) __strong __typeof(&*self) strongSelf = weakSelf;
+
+//获取沙盒 Document
+#define kPathDocument [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
+
+//获取沙盒 Cache
+#define kPathCache [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
+#define kFont(s)     [UIFont fontWithName:@"ArialMT" size:s]
+//获取设备屏幕尺寸
+#define kRateOfHeight kHeight/667//所有机型相对于iPhone6的尺寸
+#define kRateOfWidth kWidth/375
+#define inverseOfWidth 375/kWidth
+#define kBannerHeight  (150 * kRateOfHeight)
+
+#define DOCUMENTS_FOLDER [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+#define CACHES_FOLDER [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+//#define IS_IOS8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+#define IS_IOS9 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0)
+
+#define IS_IPHONE_6p ([[UIScreen mainScreen] bounds].size.height > 667.000000)
+#define IS_IPAD ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+
+#define PSChildPaneSpecifier @"PSChildPaneSpecifier"
+#define NSLog(...) NSLog(__VA_ARGS__)
+#define kLoadingText @"正在加载中"
+#define kLoadingFailedText @"网络不可用,请检查您的网络"
+#define kWebLoadingFailedText @"找不到网页"
+#define kNoDataText @"没有任何数据!"
+
+//相对尺寸
+#define FITSCREENWIDTH6(width) (width)*(kWidth/375)
+#define FITSCREENHEIGHT6(height) (height)*(kHeight/667)
+#define ios11 [[UIDevice currentDevice] systemVersion].floatValue > 11
+#define kCommitBtnColor         [UIColor colorWithRed:235/255.0 green:235/255.0 blue:241/255.0 alpha:1]
+
+#define ShowPageNum @"10"
+
+
+#define KCommitPayNotification @"KCommitPayNotification"
+//修改个人信息通知
+#define KPersonInfoNotification @"KPersonInfoNotification"
+#define KRefreshOrderNotification @"KRefreshOrderNotification"
+#define KPwdInputError @"请输入6-18位字母和数字的组合"
+
+#define KEY_ATF_UUID  [NSString stringWithFormat:@"%@-mcode",SERVER] //UUID的键名
+
+#define KBottomSafeAreaHeight @available(iOS 11.0, *)?34:0
+#endif /* PrefixHeader_pch */
