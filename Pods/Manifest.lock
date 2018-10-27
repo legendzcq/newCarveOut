@@ -17,10 +17,8 @@ PODS:
   - AMapFoundation (1.5.5)
   - Bugly (2.5.0)
   - FDFullscreenPopGesture (1.1)
-  - FMDB (2.7.5):
-    - FMDB/standard (= 2.7.5)
-  - FMDB/standard (2.7.5)
   - IQKeyboardManager (6.2.0)
+  - JWNetAutoCache (0.0.2)
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
   - MJExtension (3.0.15.1)
@@ -33,6 +31,7 @@ PODS:
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
   - UMengUShare/Core (6.4.8.2):
     - UMengUShare/Network
   - UMengUShare/Network (6.4.8.2)
@@ -56,8 +55,8 @@ DEPENDENCIES:
   - AMapFoundation
   - Bugly
   - FDFullscreenPopGesture (~> 1.1)
-  - FMDB
   - IQKeyboardManager
+  - JWNetAutoCache
   - Masonry (~> 1.0.2)
   - MBProgressHUD (~> 1.0.0)
   - MJExtension (~> 3.0.13)
@@ -67,6 +66,7 @@ DEPENDENCIES:
   - SBJson
   - SDCycleScrollView (~> 1.66)
   - SDWebImage (~> 4.0.0)
+  - "UITableView+FDTemplateLayoutCell"
   - UMengUShare/Social/ReducedQQ
   - UMengUShare/Social/ReducedWeChat
   - UMengUShare/UI
@@ -80,8 +80,8 @@ SPEC REPOS:
     - AMapFoundation
     - Bugly
     - FDFullscreenPopGesture
-    - FMDB
     - IQKeyboardManager
+    - JWNetAutoCache
     - Masonry
     - MBProgressHUD
     - MJExtension
@@ -91,6 +91,7 @@ SPEC REPOS:
     - SBJson
     - SDCycleScrollView
     - SDWebImage
+    - "UITableView+FDTemplateLayoutCell"
     - UMengUShare
     - YYKit
     - ZFPlayer
@@ -100,8 +101,8 @@ SPEC CHECKSUMS:
   AMapFoundation: 652bd70ba579f48a98bdf0c74d6e62a89a06ca58
   Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
-  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  JWNetAutoCache: 434f10855da06d29a381359552ae9d27ef35cad7
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
@@ -111,10 +112,11 @@ SPEC CHECKSUMS:
   SBJson: 73c848dc34be51fda282fab12bda6c426f5ead08
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
   UMengUShare: 370d180101e13ee0227ae657ab119ba97243d2b3
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZFPlayer: 00292c75ee52f5c2e4056c4fe911aa7697f5559f
 
-PODFILE CHECKSUM: 2b64f086a9a64be22408391c1f8568a69b5e73c1
+PODFILE CHECKSUM: 51f4f683537a5811c8c69721ec835c4015adf00e
 
 COCOAPODS: 1.5.2

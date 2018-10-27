@@ -6,7 +6,7 @@
 //  Copyright © 2017年 daniel. All rights reserved.
 //
 
-#import "JLMBaseViewController.h"
+#import "MRBaseViewController.h"
 #import "JLMRootWebView.h"
 @interface JLMShowWebVC : JLMRootWebView
 @property(nonatomic,strong)NSString * recommendCode;

@@ -18,12 +18,15 @@ target 'newCarveOut' do
   pod 'SDCycleScrollView','~> 1.66'
   pod 'IQKeyboardManager'
   pod 'YYKit'
-  pod 'FMDB'
+#  pod 'FMDB'
   pod 'ReactiveObjC'
   pod 'SBJson'
   pod 'AMapFoundation'
+  pod 'JWNetAutoCache'
+
   pod 'ZFPlayer', '~> 3.0'
   pod 'ZFPlayer/AVPlayer', '~> 3.0'
+  pod 'UITableView+FDTemplateLayoutCell'
 #  pod 'UMengAnalytics'
 # U-Share SDK UI模块（分享面板，建议添加）
 pod 'UMengUShare/UI'

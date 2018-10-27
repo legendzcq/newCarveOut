@@ -6,7 +6,7 @@
 //  Copyright © 2015年 yuchen. All rights reserved.
 //
 
-#import "JLMBaseViewController.h"
+#import "MRBaseViewController.h"
 #import <UIKit/UIKit.h>
 #import "TLCityPickerDelegate.h"
 #import "TLCity.h"

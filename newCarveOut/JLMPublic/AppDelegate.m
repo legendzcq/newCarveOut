@@ -11,9 +11,9 @@
 #import "LaunchIntroductionView.h"
 #import <Bugly/Bugly.h>
 #import "JxbDebugTool.h"
-#import "NSString+JLMTool.h"
+#import "NSString+MRTool.h"
 #import <UMSocialCore/UMSocialCore.h>    // 分享组件
-#import "JLMBaseTabBarController.h"
+#import "MRBaseTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -25,21 +25,15 @@
     // Override point for customization after application launch.
             [[JxbDebugTool shareInstance] setMainColor:[UIColor blackColor]];
             [[JxbDebugTool shareInstance] enableDebugMode];
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    //    已登录
-    JLMBaseTabBarController *controller = [[JLMBaseTabBarController alloc] init];
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
+    [self setupBugly];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[MRBaseTabBarController shardManager]];
     navController.navigationBarHidden = YES;
     self.window.rootViewController = navController;
-    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];//清除角标
-    [self setupBugly];
-    [self.window makeKeyAndVisible];
-    LaunchIntroductionView *launch =[LaunchIntroductionView sharedWithImages:@[@"jlm_firstEntry1",@"jlm_firstEntry2",@"jlm_firstEntry3"] buttonImage:@"立即体验" buttonFrame:CGRectMake((kWidth-110)*0.5, kHeight-48-45, 110, 45)];
-    launch.currentColor = [UIColor colorWithHexString:@"666768"];
-    launch.nomalColor = [UIColor colorWithHexString:@"ecedee"];
-    
-    [self setupUM];   // required: setting platforms on demand
-    [self setupBugly];
+    /* 打开调试日志 */
+    [[UMSocialManager defaultManager] openLog:YES];
+    /* 设置友盟appkey */
+    [[UMSocialManager defaultManager] setUmSocialAppkey:USHARE_DEMO_APPKEY];
+    [self configUSharePlatforms];
     [self.window makeKeyAndVisible];
     return YES;
 }

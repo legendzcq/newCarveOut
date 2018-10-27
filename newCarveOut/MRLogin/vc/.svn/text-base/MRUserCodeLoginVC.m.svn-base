@@ -1,0 +1,54 @@
+//
+//  MRUserCodeLoginVC.m
+//  MRClient
+//
+//  Created by 张传奇 on 2018/7/13.
+//  Copyright © 2018年 daniel. All rights reserved.
+//
+
+#import "MRUserCodeLoginVC.h"
+#import "MRUserRegisterOneView.h"
+#import "MRUserLoginModel.h"
+#import "MRBaseTabBarController.h"
+@interface MRUserCodeLoginVC ()
+
+@end
+
+@implementation MRUserCodeLoginVC
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+        [self setupUI];
+}
+
+-(void)setupUI {
+    self.titleLabel.text = @"验证码登录";
+    MRUserRegisterOneView * regView = [[MRUserRegisterOneView alloc]initWithFrame:CGRectMake(0, kNaviBarHeight, kWidth, kHeight-kNaviBarHeight) withType:MRUserRegisterOneViewLogin];
+    [self.view addSubview:regView];
+    regView.loginBtn.hidden = YES;
+    [regView.nextBtn setTitle:@"登录" forState:(UIControlStateNormal)];
+    regView.registBlock = ^(NSString *phoneStr, NSString *phoneCodeStr) {
+        [MRProgressHUD show:@"登录中..." inView:self.view];
+        NSDictionary * dic = @{@"mobile":phoneStr,@"smsCode":phoneCodeStr};
+        [YSNetWorkManager requestWithType:(HttpRequestTypePost) withUrlString:kAuthSmsCode withParaments:dic withSuccessBlock:^(MRRequsetInfoModel *model) {
+            NSDictionary * dict = model.data;
+            if (model.state.integerValue == 0) {
+                MRUserLoginModel * model = [MRUserLoginModel modelWithDictionary:dict];
+                [MRUserLoginModel saveAccount:model];
+                [[MRBaseTabBarController shardManager] setTabBarItem];
+                [MRProgressHUD hide];
+                //登陆成功
+                [[NSUserDefaults standardUserDefaults] setObject:phoneStr forKey:@"mobile"];
+                [self.navigationController popToRootViewControllerAnimated:YES];
+            }else{
+                [MRProgressHUD showMessage:model.msg inView:self.view];
+            }
+        } withFailureBlock:^(NSError *error) {
+            [MRProgressHUD hide];
+        } progress:^(float progress) {
+            [MRProgressHUD hide];
+        }];
+    };
+}
+
+@end

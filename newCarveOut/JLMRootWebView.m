@@ -7,10 +7,10 @@
 //
 
 #import "JLMRootWebView.h"
-#import "JLMProgressLayer.h"
+#import "MRProgressLayer.h"
 #import <Reachability/Reachability.h>
 @interface JLMRootWebView ()<UIWebViewDelegate>
-@property (nonatomic, strong) JLMProgressLayer *layer;
+@property (nonatomic, strong) MRProgressLayer *layer;
 @property (nonatomic, strong) NSURLConnection *urlConnection;
 @property (nonatomic, strong) NSURLRequest *request;
 @property (nonatomic, assign) BOOL authenticated;
@@ -24,11 +24,11 @@
         [self createWebView];
         [self createProgressView];
     } else {
-        [JLMProgressHUD showMessage:kWebLoadingFailedText inView:self.view];
+        [MRProgressHUD showMessage:kWebLoadingFailedText inView:self.view];
     }
 }
 - (void)createProgressView{
-    _layer = [JLMProgressLayer new];
+    _layer = [MRProgressLayer new];
     _layer.progressStyle = DKProgressStyle_Noraml;
     _layer.progressColor = kBuleColor;
     _layer.frame = CGRectMake(0, kNaviBarHeight-2, 0, 2);

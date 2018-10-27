@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "51666673EECAC5ECFBD9AE42ECBA281B"
+               BlueprintIdentifier = "C1A41D5AB267852BDF48C8E5F655C523"
                BlueprintName = "Pods-newCarveOut"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-newCarveOut.a">

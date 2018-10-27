@@ -11,7 +11,7 @@
 - (void)didFinishBusinessProcess:(BOOL)finish;
 
 @end
-@interface JLMRootWebView : JLMBaseViewController<UIWebViewDelegate>
+@interface JLMRootWebView : MRBaseViewController<UIWebViewDelegate>
 @property (nonatomic,strong) UIWebView * webView;
 @property (nonatomic,  copy) NSString  * urlString;
 @property (nonatomic,  copy) NSString  * tokenUrl;

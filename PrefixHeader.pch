@@ -12,26 +12,25 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 #import "JLMParam.h"
-#import "UIColor+JTMTool.h"
+#import "UIColor+MRTool.h"
 #import <YYKit.h>
 #import <Masonry.h>
-#import <ReactiveObjC.h>
-#import "JLMParam.h"
 #import "MJRefresh.h"
-#import "JLMButton.h"
+#import <ReactiveObjC.h>
+#import "MRProgressHUD.h"
+#import "MRRootWebView.h"
+#import "UIView+MRTool.h"
+#import "UIColor+MRTool.h"
+#import "NSString+MRTool.h"
+#import "UIButton+MRTool.h"
 #import "MRUserLoginModel.h"
-#import "JLMProgressHUD.h"
-#import "UIView+JLMTool.h"
-#import "UIImage+JLMTool.h"
-#import "UILabel+JLMTool.h"
-#import "UIColor+JTMTool.h"
-#import "NSString+JLMTool.h"
 #import "YSNetWorkManager.h"
-#import "UITableView+JLMHUD.h"
-#import "UIImageView+JLMTool.h"
-#import "JLMBaseViewController.h"
-#import "UIViewController+JLMHUD.h"
-#import "UIImageView+WebCache.h"
+#import <UIImageView+WebCache.h>
+#import "MRBaseViewController.h"
+#import "NSDictionary+MRTool.h"
+#import <SDWebImage/SDWebImageManager.h>
+#import "MRUserLoginVC.h"
+#import <UITableView+FDTemplateLayoutCell.h>
 
 #define kWidth  [UIScreen mainScreen].bounds.size.width
 #define kHeight [UIScreen mainScreen].bounds.size.height
@@ -53,12 +52,13 @@
 //获取沙盒 Cache
 #define kPathCache [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
 #define kFont(s)     [UIFont fontWithName:@"ArialMT" size:s]
+#define kMobile                 [[NSUserDefaults standardUserDefaults] objectForKey:@"mobile"]
 //获取设备屏幕尺寸
 #define kRateOfHeight kHeight/667//所有机型相对于iPhone6的尺寸
 #define kRateOfWidth kWidth/375
 #define inverseOfWidth 375/kWidth
 #define kBannerHeight  (150 * kRateOfHeight)
-
+#define kBottomHeight 60
 #define DOCUMENTS_FOLDER [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
 #define CACHES_FOLDER [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0]
 //#define IS_IOS8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
@@ -73,6 +73,8 @@
 #define kLoadingFailedText @"网络不可用,请检查您的网络"
 #define kWebLoadingFailedText @"找不到网页"
 #define kNoDataText @"没有任何数据!"
+//#define kID                     @1175
+#define kToken                  [MRUserLoginModel account].token==nil?@"":[MRUserLoginModel account].token
 
 //相对尺寸
 #define FITSCREENWIDTH6(width) (width)*(kWidth/375)
@@ -128,7 +130,7 @@
 #define kImageNamed(image) [UIImage imageNamed:image]
 #define kURL(url)         [NSURL URLWithString:url]
 #define kViewBorderRadius(View, Radius, Width, Color)\ \ [View.layer setCornerRadius:(Radius)];\ [View.layer setMasksToBounds:YES];\ [View.layer setBorderWidth:(Width)];\ [View.layer setBorderColor:[Color CGColor]]
-
+#define kPersonInfoNotification @"KPersonInfoNotification"
 #define kFont(s)     [UIFont fontWithName:@"ArialMT" size:s]
 #define kMainBtnColor        [UIColor colorWithHexString:@"D59F4C"]
 #endif /* PrefixHeader_pch */

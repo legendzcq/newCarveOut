@@ -1,13 +1,13 @@
 //
 //  YSNetWorkManager.h
-//  JLMShop
+//  MRShop
 //
 //  Created by yangshuai on 2017/8/24.
 //  Copyright © 2017年 daniel. All rights reserved.
 //
 
 #import <AFNetworking/AFNetworking.h>
-#import "JLMRequsetBaseModel.h"
+#import "MRRequsetBaseModel.h"
 
 /**定义请求类型的枚举*/
 
@@ -22,7 +22,7 @@ typedef NS_ENUM(NSUInteger,HttpRequestType)
 
 
 /**定义请求成功的block*/
-typedef void(^requestSuccess)( JLMRequsetInfoModel * model);
+typedef void(^requestSuccess)( MRRequsetInfoModel * model);
 /**定义请求成功无data结构的block*/
 typedef void(^requestInfoSuccess)( NSDictionary * dict);
 /**定义请求失败的block*/
@@ -47,15 +47,11 @@ typedef void(^downloadProgress)(float progress);
 
 /**
  *  网络请求的实例方法
- *
- *  @param type         get / post
- *  @param urlString    请求的地址
- *  @param paraments    请求的参数
- *  @param successBlock 请求成功的回调
- *  @param failureBlock 请求失败的回调
- *  @param progress 进度
  */
++(void)requestWithType:(HttpRequestType)type withUrlString:(NSString *)urlString withParaments:(id)paraments withSuccessBlock:( requestSuccess)successBlock;
++ (void)requestWithHideHUDType:(HttpRequestType)type withUrlString:(NSString *)urlString withParaments:(id)paraments withSuccessBlock:(requestSuccess)successBlock;
 +(void)requestWithType:(HttpRequestType)type withUrlString:(NSString *)urlString withParaments:(id)paraments withSuccessBlock:( requestSuccess)successBlock withFailureBlock:( requestFailure)failureBlock progress:(downloadProgress)progress;
++ (void)requestWithType:(HttpRequestType)type withUrlString:(NSString *)urlString withParaments:(id)paraments withSuccessBlock:(requestSuccess)successBlock withFailureBlock:(requestFailure)failureBlock;
 +(void)requestInfoWithType:(HttpRequestType)type withUrlString:(NSString *)urlString withParaments:(id)paraments withSuccessBlock:( requestInfoSuccess)successBlock withFailureBlock:( requestFailure)failureBlock progress:(downloadProgress)progress;
 /**
  *  上传图片
@@ -142,5 +138,6 @@ typedef void(^downloadProgress)(float progress);
  */
 
 +(void)uploadImageWithOperations:(NSDictionary *)operations withImageArray:(NSArray *)imageArray withtargetWidth:(CGFloat )width withUrlString:(NSString *)urlString withFileName:(NSString*)fileName withSuccessBlock:(requestSuccess)successBlock withFailurBlock:(requestFailure)failureBlock withUpLoadProgress:(uploadProgress)progress;
-
+//销毁单例
++(void)deallocShareManager;
 @end
