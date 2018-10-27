@@ -14,6 +14,7 @@
 #import "NSString+MRTool.h"
 #import <UMSocialCore/UMSocialCore.h>    // 分享组件
 #import "MRBaseTabBarController.h"
+#import "MRAppraiseMyselfVC.h"
 @interface AppDelegate ()
 
 @end
@@ -26,7 +27,8 @@
             [[JxbDebugTool shareInstance] setMainColor:[UIColor blackColor]];
             [[JxbDebugTool shareInstance] enableDebugMode];
     [self setupBugly];
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[MRBaseTabBarController shardManager]];
+//    MRBaseTabBarController shardManager]
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[MRAppraiseMyselfVC new]];
     navController.navigationBarHidden = YES;
     self.window.rootViewController = navController;
     /* 打开调试日志 */

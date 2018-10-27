@@ -11,6 +11,8 @@
 		9F11864C2183BE8C00E8250E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F11864B2183BE8C00E8250E /* Default-568h@2x.png */; };
 		9F11866D2183C26E00E8250E /* JLMRootWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F11866B2183C26E00E8250E /* JLMRootWebView.m */; };
 		9F1186702183C28600E8250E /* SGWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F11866E2183C28500E8250E /* SGWebView.m */; };
+		9F2DB88421847136006518FF /* MRAppraiseMyselfVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2DB88221847136006518FF /* MRAppraiseMyselfVC.m */; };
+		9F2DB88521847136006518FF /* MRAppraiseMyselfVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2DB88321847136006518FF /* MRAppraiseMyselfVC.xib */; };
 		9F4CA1C721834C8B00A7D93E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4CA1C621834C8B00A7D93E /* AppDelegate.m */; };
 		9F4CA1CD21834C8B00A7D93E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4CA1CB21834C8B00A7D93E /* Main.storyboard */; };
 		9F4CA1CF21834C8C00A7D93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4CA1CE21834C8C00A7D93E /* Assets.xcassets */; };
@@ -133,6 +135,11 @@
 		9FEB121521842CC9009565E6 /* MRLifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEB121321842CC9009565E6 /* MRLifeViewController.m */; };
 		9FEB121621842CC9009565E6 /* MRLifeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEB121421842CC9009565E6 /* MRLifeViewController.xib */; };
 		9FEB121B21842ED8009565E6 /* MRBaseUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEB121A21842ED8009565E6 /* MRBaseUIView.m */; };
+		9FFE5030218484F50052E57F /* MRAppraiseMyselfCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE502E218484F50052E57F /* MRAppraiseMyselfCell.m */; };
+		9FFE5031218484F50052E57F /* MRAppraiseMyselfCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FFE502F218484F50052E57F /* MRAppraiseMyselfCell.xib */; };
+		9FFE5034218486830052E57F /* appraiseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE5033218486830052E57F /* appraiseModel.m */; };
+		9FFE5037218491040052E57F /* FFTVerAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE5036218491040052E57F /* FFTVerAlertView.m */; };
+		9FFE503A218491FD0052E57F /* alertAppraiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE5039218491FD0052E57F /* alertAppraiseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -145,6 +152,9 @@
 		9F11866C2183C26E00E8250E /* JLMRootWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMRootWebView.h; sourceTree = "<group>"; };
 		9F11866E2183C28500E8250E /* SGWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGWebView.m; sourceTree = "<group>"; };
 		9F11866F2183C28600E8250E /* SGWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGWebView.h; sourceTree = "<group>"; };
+		9F2DB88121847136006518FF /* MRAppraiseMyselfVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRAppraiseMyselfVC.h; sourceTree = "<group>"; };
+		9F2DB88221847136006518FF /* MRAppraiseMyselfVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAppraiseMyselfVC.m; sourceTree = "<group>"; };
+		9F2DB88321847136006518FF /* MRAppraiseMyselfVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MRAppraiseMyselfVC.xib; sourceTree = "<group>"; };
 		9F4CA1C221834C8B00A7D93E /* newCarveOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newCarveOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4CA1C521834C8B00A7D93E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F4CA1C621834C8B00A7D93E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -372,6 +382,15 @@
 		9FEB121321842CC9009565E6 /* MRLifeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRLifeViewController.m; sourceTree = "<group>"; };
 		9FEB121421842CC9009565E6 /* MRLifeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MRLifeViewController.xib; sourceTree = "<group>"; };
 		9FEB121A21842ED8009565E6 /* MRBaseUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRBaseUIView.m; sourceTree = "<group>"; };
+		9FFE502D218484F50052E57F /* MRAppraiseMyselfCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRAppraiseMyselfCell.h; sourceTree = "<group>"; };
+		9FFE502E218484F50052E57F /* MRAppraiseMyselfCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAppraiseMyselfCell.m; sourceTree = "<group>"; };
+		9FFE502F218484F50052E57F /* MRAppraiseMyselfCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MRAppraiseMyselfCell.xib; sourceTree = "<group>"; };
+		9FFE5032218486830052E57F /* appraiseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appraiseModel.h; sourceTree = "<group>"; };
+		9FFE5033218486830052E57F /* appraiseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appraiseModel.m; sourceTree = "<group>"; };
+		9FFE5035218491030052E57F /* FFTVerAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTVerAlertView.h; sourceTree = "<group>"; };
+		9FFE5036218491040052E57F /* FFTVerAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTVerAlertView.m; sourceTree = "<group>"; };
+		9FFE5038218491FD0052E57F /* alertAppraiseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alertAppraiseView.h; sourceTree = "<group>"; };
+		9FFE5039218491FD0052E57F /* alertAppraiseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alertAppraiseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -747,6 +766,9 @@
 		9FEB112F218414E1009565E6 /* cell */ = {
 			isa = PBXGroup;
 			children = (
+				9FFE502D218484F50052E57F /* MRAppraiseMyselfCell.h */,
+				9FFE502E218484F50052E57F /* MRAppraiseMyselfCell.m */,
+				9FFE502F218484F50052E57F /* MRAppraiseMyselfCell.xib */,
 			);
 			path = cell;
 			sourceTree = "<group>";
@@ -754,20 +776,23 @@
 		9FEB1130218414E1009565E6 /* vc */ = {
 			isa = PBXGroup;
 			children = (
-				9FEB1131218414E1009565E6 /* MRUserCodeLoginVC.m */,
-				9FEB1132218414E1009565E6 /* MRUserRegisterTwoVC.h */,
-				9FEB1133218414E1009565E6 /* MRChangePhoneCodeVC.m */,
 				9FEB1134218414E1009565E6 /* MRUserLoginVC.h */,
-				9FEB1135218414E1009565E6 /* MRUserRegisterOneVC.m */,
-				9FEB1136218414E1009565E6 /* MRChangePwdCodeNewVC.xib */,
-				9FEB1137218414E1009565E6 /* MRChangePwdCodeNewVC.m */,
-				9FEB1138218414E1009565E6 /* MRChangePhoneCodeVC.xib */,
-				9FEB1139218414E1009565E6 /* MRUserRegisterTwoVC.m */,
-				9FEB113A218414E1009565E6 /* MRUserCodeLoginVC.h */,
-				9FEB113B218414E1009565E6 /* MRChangePhoneCodeVC.h */,
 				9FEB113C218414E1009565E6 /* MRUserLoginVC.m */,
+				9FEB113A218414E1009565E6 /* MRUserCodeLoginVC.h */,
+				9FEB1131218414E1009565E6 /* MRUserCodeLoginVC.m */,
 				9FEB113D218414E1009565E6 /* MRUserRegisterOneVC.h */,
+				9FEB1135218414E1009565E6 /* MRUserRegisterOneVC.m */,
+				9FEB1132218414E1009565E6 /* MRUserRegisterTwoVC.h */,
+				9FEB1139218414E1009565E6 /* MRUserRegisterTwoVC.m */,
+				9FEB113B218414E1009565E6 /* MRChangePhoneCodeVC.h */,
+				9FEB1133218414E1009565E6 /* MRChangePhoneCodeVC.m */,
+				9FEB1138218414E1009565E6 /* MRChangePhoneCodeVC.xib */,
 				9FEB113E218414E1009565E6 /* MRChangePwdCodeNewVC.h */,
+				9FEB1137218414E1009565E6 /* MRChangePwdCodeNewVC.m */,
+				9FEB1136218414E1009565E6 /* MRChangePwdCodeNewVC.xib */,
+				9F2DB88121847136006518FF /* MRAppraiseMyselfVC.h */,
+				9F2DB88221847136006518FF /* MRAppraiseMyselfVC.m */,
+				9F2DB88321847136006518FF /* MRAppraiseMyselfVC.xib */,
 			);
 			path = vc;
 			sourceTree = "<group>";
@@ -775,6 +800,8 @@
 		9FEB113F218414E1009565E6 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				9FFE5032218486830052E57F /* appraiseModel.h */,
+				9FFE5033218486830052E57F /* appraiseModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -782,14 +809,18 @@
 		9FEB1142218414E1009565E6 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				9FEB1143218414E1009565E6 /* MRUserLoginView.m */,
-				9FEB1144218414E1009565E6 /* MRUserRegisterTwoView.h */,
-				9FEB1145218414E1009565E6 /* MRUserRegisterOneView.m */,
-				9FEB1146218414E1009565E6 /* CQCountDownButton.m */,
-				9FEB1147218414E1009565E6 /* MRUserRegisterTwoView.m */,
+				9FFE5035218491030052E57F /* FFTVerAlertView.h */,
+				9FFE5036218491040052E57F /* FFTVerAlertView.m */,
 				9FEB1148218414E1009565E6 /* MRUserLoginView.h */,
-				9FEB1149218414E1009565E6 /* CQCountDownButton.h */,
+				9FEB1143218414E1009565E6 /* MRUserLoginView.m */,
 				9FEB114A218414E1009565E6 /* MRUserRegisterOneView.h */,
+				9FEB1145218414E1009565E6 /* MRUserRegisterOneView.m */,
+				9FEB1144218414E1009565E6 /* MRUserRegisterTwoView.h */,
+				9FEB1147218414E1009565E6 /* MRUserRegisterTwoView.m */,
+				9FEB1149218414E1009565E6 /* CQCountDownButton.h */,
+				9FEB1146218414E1009565E6 /* CQCountDownButton.m */,
+				9FFE5038218491FD0052E57F /* alertAppraiseView.h */,
+				9FFE5039218491FD0052E57F /* alertAppraiseView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -908,6 +939,7 @@
 				9FEB11F521842A85009565E6 /* MRChangePwdMainVC.xib in Resources */,
 				9F88E7172183574E009BD51D /* SGQRCode.bundle in Resources */,
 				9F4CA1D221834C8C00A7D93E /* LaunchScreen.storyboard in Resources */,
+				9FFE5031218484F50052E57F /* MRAppraiseMyselfCell.xib in Resources */,
 				9F4CA1CF21834C8C00A7D93E /* Assets.xcassets in Resources */,
 				9FEB120621842B0D009565E6 /* MRUserMyIdentityVC.xib in Resources */,
 				9FEB120C21842BD5009565E6 /* MRTenementViewController.xib in Resources */,
@@ -923,6 +955,7 @@
 				9FEB117321841AF0009565E6 /* LaunchScreen.storyboard in Resources */,
 				9FEB11FA21842A9E009565E6 /* MRChangePwdOrgainVC.xib in Resources */,
 				9F11864C2183BE8C00E8250E /* Default-568h@2x.png in Resources */,
+				9F2DB88521847136006518FF /* MRAppraiseMyselfVC.xib in Resources */,
 				9FEB115C218414E1009565E6 /* login_video.mp4 in Resources */,
 				9FEB11FE21842AAD009565E6 /* MRChangePwdCodeVC.xib in Resources */,
 			);
@@ -990,9 +1023,11 @@
 			files = (
 				9FEB117A21841AF0009565E6 /* MRRootWebView.m in Sources */,
 				9F88E70521835742009BD51D /* XIAlertModalBackgroundView.m in Sources */,
+				9FFE503A218491FD0052E57F /* alertAppraiseView.m in Sources */,
 				9FEB117621841AF0009565E6 /* MRProgressHUD.m in Sources */,
 				9FEB11A621841C41009565E6 /* UIView+MRTool.m in Sources */,
 				9F88E77121835B73009BD51D /* JxbContentVC.m in Sources */,
+				9FFE5037218491040052E57F /* FFTVerAlertView.m in Sources */,
 				9FEB11A021841C41009565E6 /* UIView+PlaceholderView.m in Sources */,
 				9FEB11F921842A9E009565E6 /* MRChangePwdOrgainVC.m in Sources */,
 				9FEB114F218414E1009565E6 /* MRChangePhoneCodeVC.m in Sources */,
@@ -1016,6 +1051,7 @@
 				9FEB11E221842851009565E6 /* MRUserWalletCell.m in Sources */,
 				9FEB11CA21842624009565E6 /* MRUserChangeInfoVC.m in Sources */,
 				9FEB11BC2184246F009565E6 /* MRUserAccountSetingVC.m in Sources */,
+				9F2DB88421847136006518FF /* MRAppraiseMyselfVC.m in Sources */,
 				9FEB120221842ADC009565E6 /* MRUserSafeMainVC.m in Sources */,
 				9FEB119B21841C41009565E6 /* NSString+MRTool.m in Sources */,
 				9FEB11B021842010009565E6 /* MRUserLoginModel.m in Sources */,
@@ -1065,6 +1101,7 @@
 				9F88E76921835B73009BD51D /* JxbBaseVC.m in Sources */,
 				9FEB1150218414E1009565E6 /* MRUserRegisterOneVC.m in Sources */,
 				9F88E6C62183570A009BD51D /* TLCityPickerSearchResultController.m in Sources */,
+				9FFE5034218486830052E57F /* appraiseModel.m in Sources */,
 				9FEB11DB2184273E009565E6 /* MRUserSettingVC.m in Sources */,
 				9F88E77721835B73009BD51D /* JxbHttpCell.m in Sources */,
 				9F4CA1C721834C8B00A7D93E /* AppDelegate.m in Sources */,
@@ -1090,6 +1127,7 @@
 				9F88E6FE21835727009BD51D /* VPImageCropperViewController.m in Sources */,
 				9FEB11C521842606009565E6 /* MRShopHeaderCell.m in Sources */,
 				9FEB119C21841C41009565E6 /* NSDate+MRTool.m in Sources */,
+				9FFE5030218484F50052E57F /* MRAppraiseMyselfCell.m in Sources */,
 				9FEB11F021842A0E009565E6 /* MRUserShowImageCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

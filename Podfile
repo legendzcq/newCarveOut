@@ -23,11 +23,12 @@ target 'newCarveOut' do
   pod 'SBJson'
   pod 'AMapFoundation'
   pod 'JWNetAutoCache'
-
+  pod 'TTGTagCollectionView'
   pod 'ZFPlayer', '~> 3.0'
   pod 'ZFPlayer/AVPlayer', '~> 3.0'
   pod 'UITableView+FDTemplateLayoutCell'
-#  pod 'UMengAnalytics'
+  pod 'CDZStarsControl'
+  #  pod 'UMengAnalytics'
 # U-Share SDK UI模块（分享面板，建议添加）
 pod 'UMengUShare/UI'
 # 集成微信(精简版0.2M)

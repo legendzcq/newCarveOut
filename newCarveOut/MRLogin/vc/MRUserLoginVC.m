@@ -13,6 +13,7 @@
 #import "MRChangePhoneCodeVC.h"
 #import "MRUserLoginModel.h"
 #import "MRBaseTabBarController.h"
+#import "MRAppraiseMyselfVC.h"
 @interface MRUserLoginVC ()
 
 @end
@@ -44,9 +45,9 @@
     loginView.loginBtnBlock = ^(NSString *phoneStr, NSString *pwdStr) {
           [MRProgressHUD show:@"登录中..." inView:self.view];
             NSDictionary * dic = @{@"mobile":phoneStr,@"password":pwdStr};
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             [MRProgressHUD hide];
-            
+            [self.navigationController pushViewController:[MRAppraiseMyselfVC new] animated:YES];
         });
 //            [YSNetWorkManager requestWithType:(HttpRequestTypePost) withUrlString:kAuth withParaments:dic withSuccessBlock:^(MRRequsetInfoModel *model) {
 //                NSDictionary * dict = model.data;

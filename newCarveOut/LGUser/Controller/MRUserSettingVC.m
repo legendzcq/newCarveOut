@@ -34,10 +34,11 @@
 }
 #pragma mark ---- request
 - (void)requestData{
-    [MRUserModel requestUserDataSuccessBlock:^(MRUserModel *model) {
-        self.model = model;
+//    [MRUserModel requestUserDataSuccessBlock:^(MRUserModel *model) {
+    
+//        self.model = model;
         [self initTableView];
-    }];
+//    }];
 }
 #pragma mark ---- init
 - (void)initTableView{
@@ -137,7 +138,8 @@
             return;
         }
         MRRootWebView * webView = [[MRRootWebView alloc]init];
-        webView.urlString = self.model.aboutUsUrl;
+        webView.urlString = @"https://www.baidu.com";
+//        self.model.aboutUsUrl;
         [self.navigationController pushViewController:webView animated:YES];
     }else if (indexPath.row == 5) {
         [YSNetWorkManager clearCaches];

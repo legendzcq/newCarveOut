@@ -17,7 +17,8 @@
 #import "MRUserSettingVC.h"
 #import "MRUserLoginVC.h"
 #import "MRUserModel.h"
-
+#import "MRUserSettingVC.h"
+#import "JLMShowWebVC.h"
 @interface MRUserViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,  copy)NSArray * bottomTitleArray;
@@ -247,7 +248,7 @@
 //        [self.navigationController pushViewController:webView animated:YES];
 //        MRUserApproximateCommitVC * vc = [MRUserApproximateCommitVC new];
 //        [self.navigationController pushViewController:vc animated:YES];
-        
+        [self.navigationController pushViewController:[JLMShowWebVC new] animated:YES];
     }
 }
 

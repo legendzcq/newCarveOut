@@ -16,6 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - AMapFoundation (1.5.5)
   - Bugly (2.5.0)
+  - CDZStarsControl (1.0.1)
   - FDFullscreenPopGesture (1.1)
   - IQKeyboardManager (6.2.0)
   - JWNetAutoCache (0.0.2)
@@ -31,6 +32,7 @@ PODS:
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
+  - TTGTagCollectionView (1.9.0)
   - "UITableView+FDTemplateLayoutCell (1.6)"
   - UMengUShare/Core (6.4.8.2):
     - UMengUShare/Network
@@ -54,6 +56,7 @@ DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - AMapFoundation
   - Bugly
+  - CDZStarsControl
   - FDFullscreenPopGesture (~> 1.1)
   - IQKeyboardManager
   - JWNetAutoCache
@@ -66,6 +69,7 @@ DEPENDENCIES:
   - SBJson
   - SDCycleScrollView (~> 1.66)
   - SDWebImage (~> 4.0.0)
+  - TTGTagCollectionView
   - "UITableView+FDTemplateLayoutCell"
   - UMengUShare/Social/ReducedQQ
   - UMengUShare/Social/ReducedWeChat
@@ -79,6 +83,7 @@ SPEC REPOS:
     - AFNetworking
     - AMapFoundation
     - Bugly
+    - CDZStarsControl
     - FDFullscreenPopGesture
     - IQKeyboardManager
     - JWNetAutoCache
@@ -91,6 +96,7 @@ SPEC REPOS:
     - SBJson
     - SDCycleScrollView
     - SDWebImage
+    - TTGTagCollectionView
     - "UITableView+FDTemplateLayoutCell"
     - UMengUShare
     - YYKit
@@ -100,6 +106,7 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   AMapFoundation: 652bd70ba579f48a98bdf0c74d6e62a89a06ca58
   Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  CDZStarsControl: c2c9a9fae443924cdbadca93db96b3c433d0479d
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
   JWNetAutoCache: 434f10855da06d29a381359552ae9d27ef35cad7
@@ -112,11 +119,12 @@ SPEC CHECKSUMS:
   SBJson: 73c848dc34be51fda282fab12bda6c426f5ead08
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  TTGTagCollectionView: 958f20b946dee92a8ba20dc37d10a06737641ae9
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
   UMengUShare: 370d180101e13ee0227ae657ab119ba97243d2b3
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZFPlayer: 00292c75ee52f5c2e4056c4fe911aa7697f5559f
 
-PODFILE CHECKSUM: 51f4f683537a5811c8c69721ec835c4015adf00e
+PODFILE CHECKSUM: d65f7dc7dca8d949e298d80f0635788c9ecdb331
 
 COCOAPODS: 1.5.2
