@@ -23,6 +23,12 @@ target 'newCarveOut' do
   pod 'SBJson'
   pod 'AMapFoundation'
   pod 'ZFPlayer', '~> 3.0'
-  pod 'UMengAnalytics'
-
+  pod 'ZFPlayer/AVPlayer', '~> 3.0'
+#  pod 'UMengAnalytics'
+# U-Share SDK UI模块（分享面板，建议添加）
+pod 'UMengUShare/UI'
+# 集成微信(精简版0.2M)
+pod 'UMengUShare/Social/ReducedWeChat'
+# 集成QQ/QZone/TIM(精简版0.5M)
+pod 'UMengUShare/Social/ReducedQQ'
 end

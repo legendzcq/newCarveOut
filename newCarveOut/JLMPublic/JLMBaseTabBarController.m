@@ -13,8 +13,8 @@
 #import "JLMOrderViewController.h"
 #import "JLMUserViewController.h"
 #import "JLMRootNaviController.h"
-#import "JLMUserLoginVC.h"
-#import "JLMUserLoginModel.h"
+#import "MRUserLoginVC.h"
+#import "MRUserLoginModel.h"
 #import "JLMRootNaviController.h"
 
 @interface JLMBaseTabBarController ()<YSTabBarDelegate>
@@ -59,18 +59,18 @@
 }
 
 
-- (BOOL)ys_tabBar:(YSTabBar *)tabBar shouldSelectItemAtIndex:(NSUInteger)index {
-    if (![JLMUserLoginModel isLogin] && (index == 2 || index == 3)) {
-        JLMUserLoginVC * vc = [JLMUserLoginVC new];
-        JLMRootNaviController *naviVc = [[JLMRootNaviController alloc] initWithRootViewController:vc];
-        vc.isModeEntry = YES;
-        //        tabBar.selectedItemIndex = 0;
-        [self presentViewController:naviVc animated:YES completion:^{
-            self.selectedControllerIndex = 0;
-            tabBar.selectedItemIndex = 0;
-        }];
-        return NO;
-    }
-    return YES;
-}
+//- (BOOL)ys_tabBar:(YSTabBar *)tabBar shouldSelectItemAtIndex:(NSUInteger)index {
+//    if (![MRUserLoginModel isLogin] && (index == 2 || index == 3)) {
+//        MRUserLoginVC * vc = [MRUserLoginVC new];
+//        JLMRootNaviController *naviVc = [[JLMRootNaviController alloc] initWithRootViewController:vc];
+////        vc.isModeEntry = YES;
+//        //        tabBar.selectedItemIndex = 0;
+//        [self presentViewController:naviVc animated:YES completion:^{
+//            self.selectedControllerIndex = 0;
+//            tabBar.selectedItemIndex = 0;
+//        }];
+//        return NO;
+//    }
+//    return YES;
+//}
 @end

@@ -7,6 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+typedef NS_ENUM(NSUInteger,EntryCodeType)
+{
+    
+    EntryCodeTypeChangePhone = 0,
+    EntryCodeTypeChangePwd,
+    EntryCodeTypeForgetPwd
+    
+};
 @class CQCountDownButton;
 typedef  void (^loginSuccess)();
 @interface JLMBaseViewController : UIViewController

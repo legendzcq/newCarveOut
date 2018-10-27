@@ -33,8 +33,22 @@ PODS:
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
+  - UMengUShare/Core (6.4.8.2):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.8.2)
+  - UMengUShare/Social/ReducedQQ (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.4.8.2):
+    - UMengUShare/Core
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
   - ZFPlayer (3.2.1):
     - ZFPlayer/Core (= 3.2.1)
+  - ZFPlayer/AVPlayer (3.2.1):
+    - ZFPlayer/Core
   - ZFPlayer/Core (3.2.1)
 
 DEPENDENCIES:
@@ -53,7 +67,12 @@ DEPENDENCIES:
   - SBJson
   - SDCycleScrollView (~> 1.66)
   - SDWebImage (~> 4.0.0)
+  - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/UI
+  - YYKit
   - ZFPlayer (~> 3.0)
+  - ZFPlayer/AVPlayer (~> 3.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -72,6 +91,8 @@ SPEC REPOS:
     - SBJson
     - SDCycleScrollView
     - SDWebImage
+    - UMengUShare
+    - YYKit
     - ZFPlayer
 
 SPEC CHECKSUMS:
@@ -90,8 +111,10 @@ SPEC CHECKSUMS:
   SBJson: 73c848dc34be51fda282fab12bda6c426f5ead08
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  UMengUShare: 370d180101e13ee0227ae657ab119ba97243d2b3
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZFPlayer: 00292c75ee52f5c2e4056c4fe911aa7697f5559f
 
-PODFILE CHECKSUM: 02da2050af9c35a99ba82ac84ab5735d410c1b5d
+PODFILE CHECKSUM: 2b64f086a9a64be22408391c1f8568a69b5e73c1
 
 COCOAPODS: 1.5.2

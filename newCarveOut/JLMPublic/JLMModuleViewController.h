@@ -7,8 +7,8 @@
 //
 
 #import "JLMBaseViewController.h"
-#import "JLMPublicFoodsCell.h"
-#import "JLMPublicHotelCell.h"
+//#import "JLMPublicFoodsCell.h"
+//#import "JLMPublicHotelCell.h"
 #import <SDCycleScrollView.h>
 @interface JLMModuleViewController : JLMBaseViewController
 

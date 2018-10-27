@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		42C2C1D51164E04CE3F2F677 /* libPods-newCarveOut.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E385D2CC9B4A65C60AE4278 /* libPods-newCarveOut.a */; };
+		9F11864C2183BE8C00E8250E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F11864B2183BE8C00E8250E /* Default-568h@2x.png */; };
+		9F11864F2183BFB600E8250E /* MRBaseUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F11864E2183BFB600E8250E /* MRBaseUIView.m */; };
+		9F1186532183C0B400E8250E /* JLMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1186512183C0B400E8250E /* JLMHomeViewController.m */; };
+		9F1186542183C0B400E8250E /* JLMHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1186522183C0B400E8250E /* JLMHomeViewController.xib */; };
+		9F1186582183C0C800E8250E /* JLMShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1186562183C0C800E8250E /* JLMShopViewController.m */; };
+		9F1186592183C0C800E8250E /* JLMShopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1186572183C0C800E8250E /* JLMShopViewController.xib */; };
+		9F11865D2183C0D700E8250E /* JLMOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F11865B2183C0D700E8250E /* JLMOrderViewController.m */; };
+		9F11865E2183C0D700E8250E /* JLMOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F11865C2183C0D700E8250E /* JLMOrderViewController.xib */; };
+		9F1186612183C10200E8250E /* JLMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F11865F2183C10200E8250E /* JLMUserViewController.m */; };
+		9F11866A2183C1BB00E8250E /* JLMUserViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1186682183C1BA00E8250E /* JLMUserViewCell.m */; };
+		9F11866D2183C26E00E8250E /* JLMRootWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F11866B2183C26E00E8250E /* JLMRootWebView.m */; };
+		9F1186702183C28600E8250E /* SGWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F11866E2183C28500E8250E /* SGWebView.m */; };
+		9F1186742183C67400E8250E /* MRChangePhoneCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1186712183C67300E8250E /* MRChangePhoneCodeVC.m */; };
+		9F1186752183C67400E8250E /* MRChangePhoneCodeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1186722183C67300E8250E /* MRChangePhoneCodeVC.xib */; };
+		9F1186792183C74400E8250E /* MRChangePwdCodeNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1186772183C74400E8250E /* MRChangePwdCodeNewVC.m */; };
+		9F11867A2183C74400E8250E /* MRChangePwdCodeNewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1186782183C74400E8250E /* MRChangePwdCodeNewVC.xib */; };
 		9F4CA1C721834C8B00A7D93E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4CA1C621834C8B00A7D93E /* AppDelegate.m */; };
 		9F4CA1CD21834C8B00A7D93E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4CA1CB21834C8B00A7D93E /* Main.storyboard */; };
 		9F4CA1CF21834C8C00A7D93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4CA1CE21834C8C00A7D93E /* Assets.xcassets */; };
@@ -91,12 +107,41 @@
 		9F88E79921836AA0009BD51D /* MRUserRegisterOneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F88E78D21836AA0009BD51D /* MRUserRegisterOneView.m */; };
 		9F88E79A21836AA0009BD51D /* CQCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F88E78E21836AA0009BD51D /* CQCountDownButton.m */; };
 		9F88E79B21836AA0009BD51D /* MRUserRegisterTwoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F88E78F21836AA0009BD51D /* MRUserRegisterTwoView.m */; };
+		9FE081702183719000FCF2E1 /* JLMShowWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0816F2183719000FCF2E1 /* JLMShowWebVC.m */; };
+		9FEB112C2183CADD009565E6 /* loginmovie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9FEB112A2183CADD009565E6 /* loginmovie.mp4 */; };
+		9FEB112D2183CADD009565E6 /* login_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9FEB112B2183CADD009565E6 /* login_video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		020B07C6A9A159B2D4AA39A3 /* Pods-newCarveOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newCarveOut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-newCarveOut/Pods-newCarveOut.debug.xcconfig"; sourceTree = "<group>"; };
 		3E385D2CC9B4A65C60AE4278 /* libPods-newCarveOut.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-newCarveOut.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4536F044165F3D88722D4ED6 /* Pods-newCarveOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newCarveOut.release.xcconfig"; path = "Pods/Target Support Files/Pods-newCarveOut/Pods-newCarveOut.release.xcconfig"; sourceTree = "<group>"; };
+		9F11864B2183BE8C00E8250E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9F11864D2183BFB500E8250E /* MRBaseUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRBaseUIView.h; sourceTree = "<group>"; };
+		9F11864E2183BFB600E8250E /* MRBaseUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRBaseUIView.m; sourceTree = "<group>"; };
+		9F1186502183C0B400E8250E /* JLMHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLMHomeViewController.h; sourceTree = "<group>"; };
+		9F1186512183C0B400E8250E /* JLMHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLMHomeViewController.m; sourceTree = "<group>"; };
+		9F1186522183C0B400E8250E /* JLMHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JLMHomeViewController.xib; sourceTree = "<group>"; };
+		9F1186552183C0C800E8250E /* JLMShopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLMShopViewController.h; sourceTree = "<group>"; };
+		9F1186562183C0C800E8250E /* JLMShopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLMShopViewController.m; sourceTree = "<group>"; };
+		9F1186572183C0C800E8250E /* JLMShopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JLMShopViewController.xib; sourceTree = "<group>"; };
+		9F11865A2183C0D700E8250E /* JLMOrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLMOrderViewController.h; sourceTree = "<group>"; };
+		9F11865B2183C0D700E8250E /* JLMOrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLMOrderViewController.m; sourceTree = "<group>"; };
+		9F11865C2183C0D700E8250E /* JLMOrderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JLMOrderViewController.xib; sourceTree = "<group>"; };
+		9F11865F2183C10200E8250E /* JLMUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMUserViewController.m; sourceTree = "<group>"; };
+		9F1186602183C10200E8250E /* JLMUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMUserViewController.h; sourceTree = "<group>"; };
+		9F1186682183C1BA00E8250E /* JLMUserViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMUserViewCell.m; sourceTree = "<group>"; };
+		9F1186692183C1BB00E8250E /* JLMUserViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMUserViewCell.h; sourceTree = "<group>"; };
+		9F11866B2183C26E00E8250E /* JLMRootWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMRootWebView.m; sourceTree = "<group>"; };
+		9F11866C2183C26E00E8250E /* JLMRootWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMRootWebView.h; sourceTree = "<group>"; };
+		9F11866E2183C28500E8250E /* SGWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGWebView.m; sourceTree = "<group>"; };
+		9F11866F2183C28600E8250E /* SGWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGWebView.h; sourceTree = "<group>"; };
+		9F1186712183C67300E8250E /* MRChangePhoneCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRChangePhoneCodeVC.m; sourceTree = "<group>"; };
+		9F1186722183C67300E8250E /* MRChangePhoneCodeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRChangePhoneCodeVC.xib; sourceTree = "<group>"; };
+		9F1186732183C67400E8250E /* MRChangePhoneCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRChangePhoneCodeVC.h; sourceTree = "<group>"; };
+		9F1186762183C74400E8250E /* MRChangePwdCodeNewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRChangePwdCodeNewVC.h; sourceTree = "<group>"; };
+		9F1186772183C74400E8250E /* MRChangePwdCodeNewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRChangePwdCodeNewVC.m; sourceTree = "<group>"; };
+		9F1186782183C74400E8250E /* MRChangePwdCodeNewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRChangePwdCodeNewVC.xib; sourceTree = "<group>"; };
 		9F4CA1C221834C8B00A7D93E /* newCarveOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newCarveOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4CA1C521834C8B00A7D93E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F4CA1C621834C8B00A7D93E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -263,6 +308,10 @@
 		9F88E79021836AA0009BD51D /* MRUserLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRUserLoginView.h; sourceTree = "<group>"; };
 		9F88E79121836AA0009BD51D /* CQCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQCountDownButton.h; sourceTree = "<group>"; };
 		9F88E79221836AA0009BD51D /* MRUserRegisterOneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRUserRegisterOneView.h; sourceTree = "<group>"; };
+		9FE0816E2183719000FCF2E1 /* JLMShowWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMShowWebVC.h; sourceTree = "<group>"; };
+		9FE0816F2183719000FCF2E1 /* JLMShowWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMShowWebVC.m; sourceTree = "<group>"; };
+		9FEB112A2183CADD009565E6 /* loginmovie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loginmovie.mp4; sourceTree = "<group>"; };
+		9FEB112B2183CADD009565E6 /* login_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = login_video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,9 +335,53 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9F1186632183C19100E8250E /* LGUser */ = {
+			isa = PBXGroup;
+			children = (
+				9F1186642183C19100E8250E /* Controller */,
+				9F1186652183C19100E8250E /* Cell */,
+				9F1186662183C19100E8250E /* Model */,
+				9F1186672183C19100E8250E /* View */,
+			);
+			path = LGUser;
+			sourceTree = "<group>";
+		};
+		9F1186642183C19100E8250E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F1186602183C10200E8250E /* JLMUserViewController.h */,
+				9F11865F2183C10200E8250E /* JLMUserViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9F1186652183C19100E8250E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9F1186692183C1BB00E8250E /* JLMUserViewCell.h */,
+				9F1186682183C1BA00E8250E /* JLMUserViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9F1186662183C19100E8250E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F1186672183C19100E8250E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9F4CA1B921834C8B00A7D93E = {
 			isa = PBXGroup;
 			children = (
+				9F11864B2183BE8C00E8250E /* Default-568h@2x.png */,
 				9F88E74121835AB6009BD51D /* JLMParam.h */,
 				9F88E736218357FE009BD51D /* PrefixHeader.pch */,
 				9F4CA1CE21834C8C00A7D93E /* Assets.xcassets */,
@@ -310,9 +403,26 @@
 		9F4CA1C421834C8B00A7D93E /* newCarveOut */ = {
 			isa = PBXGroup;
 			children = (
+				9F4CA1D321834C8C00A7D93E /* Info.plist */,
+				9F1186632183C19100E8250E /* LGUser */,
+				9FE0816E2183719000FCF2E1 /* JLMShowWebVC.h */,
+				9FE0816F2183719000FCF2E1 /* JLMShowWebVC.m */,
 				9F88E77C21836AA0009BD51D /* MRLogin */,
 				9F88E6AD218356DE009BD51D /* Other */,
 				9F88E68B21835695009BD51D /* JLMPublic */,
+				9F1186502183C0B400E8250E /* JLMHomeViewController.h */,
+				9F1186512183C0B400E8250E /* JLMHomeViewController.m */,
+				9F1186522183C0B400E8250E /* JLMHomeViewController.xib */,
+				9F1186552183C0C800E8250E /* JLMShopViewController.h */,
+				9F1186562183C0C800E8250E /* JLMShopViewController.m */,
+				9F1186572183C0C800E8250E /* JLMShopViewController.xib */,
+				9F11865A2183C0D700E8250E /* JLMOrderViewController.h */,
+				9F11865B2183C0D700E8250E /* JLMOrderViewController.m */,
+				9F11865C2183C0D700E8250E /* JLMOrderViewController.xib */,
+				9F11866C2183C26E00E8250E /* JLMRootWebView.h */,
+				9F11866B2183C26E00E8250E /* JLMRootWebView.m */,
+				9F11866F2183C28600E8250E /* SGWebView.h */,
+				9F11866E2183C28500E8250E /* SGWebView.m */,
 			);
 			path = newCarveOut;
 			sourceTree = "<group>";
@@ -320,6 +430,8 @@
 		9F88E68B21835695009BD51D /* JLMPublic */ = {
 			isa = PBXGroup;
 			children = (
+				9F11864D2183BFB500E8250E /* MRBaseUIView.h */,
+				9F11864E2183BFB600E8250E /* MRBaseUIView.m */,
 				9F4CA1C521834C8B00A7D93E /* AppDelegate.h */,
 				9F4CA1C621834C8B00A7D93E /* AppDelegate.m */,
 				9F88E68C21835695009BD51D /* JLMButton.m */,
@@ -353,7 +465,6 @@
 			children = (
 				9F88E74221835B73009BD51D /* JxbDebugTool */,
 				9F4CA1D021834C8C00A7D93E /* LaunchScreen.storyboard */,
-				9F4CA1D321834C8C00A7D93E /* Info.plist */,
 				9F4CA1D421834C8C00A7D93E /* main.m */,
 				9F4CA1CB21834C8B00A7D93E /* Main.storyboard */,
 				9F88E73721835862009BD51D /* YSTabBarController */,
@@ -558,6 +669,7 @@
 		9F88E77C21836AA0009BD51D /* MRLogin */ = {
 			isa = PBXGroup;
 			children = (
+				9FEB11292183CADD009565E6 /* Resource */,
 				9F88E77E21836AA0009BD51D /* vc */,
 				9F88E78721836AA0009BD51D /* model */,
 				9F88E78A21836AA0009BD51D /* view */,
@@ -569,14 +681,20 @@
 		9F88E77E21836AA0009BD51D /* vc */ = {
 			isa = PBXGroup;
 			children = (
-				9F88E78421836AA0009BD51D /* MRUserCodeLoginVC.h */,
-				9F88E77F21836AA0009BD51D /* MRUserCodeLoginVC.m */,
-				9F88E78021836AA0009BD51D /* MRUserRegisterTwoVC.h */,
-				9F88E78621836AA0009BD51D /* MRUserRegisterOneVC.h */,
 				9F88E78121836AA0009BD51D /* MRUserLoginVC.h */,
 				9F88E78521836AA0009BD51D /* MRUserLoginVC.m */,
+				9F88E78421836AA0009BD51D /* MRUserCodeLoginVC.h */,
+				9F88E77F21836AA0009BD51D /* MRUserCodeLoginVC.m */,
+				9F88E78621836AA0009BD51D /* MRUserRegisterOneVC.h */,
 				9F88E78221836AA0009BD51D /* MRUserRegisterOneVC.m */,
+				9F88E78021836AA0009BD51D /* MRUserRegisterTwoVC.h */,
 				9F88E78321836AA0009BD51D /* MRUserRegisterTwoVC.m */,
+				9F1186762183C74400E8250E /* MRChangePwdCodeNewVC.h */,
+				9F1186772183C74400E8250E /* MRChangePwdCodeNewVC.m */,
+				9F1186782183C74400E8250E /* MRChangePwdCodeNewVC.xib */,
+				9F1186732183C67400E8250E /* MRChangePhoneCodeVC.h */,
+				9F1186712183C67300E8250E /* MRChangePhoneCodeVC.m */,
+				9F1186722183C67300E8250E /* MRChangePhoneCodeVC.xib */,
 			);
 			path = vc;
 			sourceTree = "<group>";
@@ -593,16 +711,25 @@
 		9F88E78A21836AA0009BD51D /* view */ = {
 			isa = PBXGroup;
 			children = (
+				9F88E79221836AA0009BD51D /* MRUserRegisterOneView.h */,
+				9F88E78D21836AA0009BD51D /* MRUserRegisterOneView.m */,
+				9F88E79021836AA0009BD51D /* MRUserLoginView.h */,
 				9F88E78B21836AA0009BD51D /* MRUserLoginView.m */,
 				9F88E78C21836AA0009BD51D /* MRUserRegisterTwoView.h */,
-				9F88E78D21836AA0009BD51D /* MRUserRegisterOneView.m */,
-				9F88E78E21836AA0009BD51D /* CQCountDownButton.m */,
 				9F88E78F21836AA0009BD51D /* MRUserRegisterTwoView.m */,
-				9F88E79021836AA0009BD51D /* MRUserLoginView.h */,
+				9F88E78E21836AA0009BD51D /* CQCountDownButton.m */,
 				9F88E79121836AA0009BD51D /* CQCountDownButton.h */,
-				9F88E79221836AA0009BD51D /* MRUserRegisterOneView.h */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		9FEB11292183CADD009565E6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9FEB112A2183CADD009565E6 /* loginmovie.mp4 */,
+				9FEB112B2183CADD009565E6 /* login_video.mp4 */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		D197A11D95E1888B5705FB8F /* Frameworks */ = {
@@ -673,10 +800,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F88E7172183574E009BD51D /* SGQRCode.bundle in Resources */,
+				9F1186752183C67400E8250E /* MRChangePhoneCodeVC.xib in Resources */,
 				9F4CA1D221834C8C00A7D93E /* LaunchScreen.storyboard in Resources */,
+				9F11867A2183C74400E8250E /* MRChangePwdCodeNewVC.xib in Resources */,
+				9F11865E2183C0D700E8250E /* JLMOrderViewController.xib in Resources */,
+				9F1186542183C0B400E8250E /* JLMHomeViewController.xib in Resources */,
 				9F4CA1CF21834C8C00A7D93E /* Assets.xcassets in Resources */,
 				9F4CA1CD21834C8B00A7D93E /* Main.storyboard in Resources */,
 				9F88E6C22183570A009BD51D /* CityData.plist in Resources */,
+				9F1186592183C0C800E8250E /* JLMShopViewController.xib in Resources */,
+				9FEB112C2183CADD009565E6 /* loginmovie.mp4 in Resources */,
+				9F11864C2183BE8C00E8250E /* Default-568h@2x.png in Resources */,
+				9FEB112D2183CADD009565E6 /* login_video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,6 +851,8 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-newCarveOut/Pods-newCarveOut-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
@@ -723,6 +860,8 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKPromptResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -739,16 +878,22 @@
 				9F88E70521835742009BD51D /* XIAlertModalBackgroundView.m in Sources */,
 				9F88E77121835B73009BD51D /* JxbContentVC.m in Sources */,
 				9F88E6EA2183571A009BD51D /* UIView+JLMTool.m in Sources */,
+				9F1186532183C0B400E8250E /* JLMHomeViewController.m in Sources */,
+				9F11866A2183C1BB00E8250E /* JLMUserViewCell.m in Sources */,
 				9F88E6EF2183571A009BD51D /* UIView+PlaceholderView.m in Sources */,
 				9F88E7192183574E009BD51D /* SGQRCodeHelperTool.m in Sources */,
 				9F88E6C52183570A009BD51D /* TLCityPickerController.m in Sources */,
+				9F11865D2183C0D700E8250E /* JLMOrderViewController.m in Sources */,
 				9F88E77421835B73009BD51D /* JxbHttpDetailVC.m in Sources */,
 				9F88E77B21835B73009BD51D /* JxbHttpDatasource.m in Sources */,
+				9F1186702183C28600E8250E /* SGWebView.m in Sources */,
 				9F88E76B21835B73009BD51D /* NSURLSessionTask+Swizzling.m in Sources */,
+				9F1186582183C0C800E8250E /* JLMShopViewController.m in Sources */,
 				9F88E77921835B73009BD51D /* JxbMemoryHelper.m in Sources */,
 				9F88E6EE2183571A009BD51D /* UITableViewCell+JLMTips.m in Sources */,
 				9F88E79821836AA0009BD51D /* MRUserLoginView.m in Sources */,
 				9F88E73E21835862009BD51D /* YSTabItem.m in Sources */,
+				9F1186792183C74400E8250E /* MRChangePwdCodeNewVC.m in Sources */,
 				9F88E6EC2183571A009BD51D /* UIScrollView+APParallaxHeader.m in Sources */,
 				9F88E6A221835695009BD51D /* JLMButton.m in Sources */,
 				9F88E6B1218356F6009BD51D /* LaunchIntroductionView.m in Sources */,
@@ -756,19 +901,23 @@
 				9F88E71D2183574E009BD51D /* SGQRCodeAlbumManager.m in Sources */,
 				9F88E6F12183571A009BD51D /* UIButton+ImageTitleSpacing.m in Sources */,
 				9F88E77221835B73009BD51D /* NSURLRequest+Identify.m in Sources */,
+				9F1186612183C10200E8250E /* JLMUserViewController.m in Sources */,
 				9F88E73F21835862009BD51D /* YSTabBar.m in Sources */,
 				9F88E6F52183571A009BD51D /* UIButton+EnlargeTouchArea.m in Sources */,
 				9F88E6F82183571A009BD51D /* UIImageView+JLMTool.m in Sources */,
 				9F88E6ED2183571A009BD51D /* UITableView+ JLMHUD.m in Sources */,
 				9F88E6AA21835695009BD51D /* JLMPublicModel.m in Sources */,
 				9F88E6A321835695009BD51D /* JLMProgressLayer.m in Sources */,
+				9F11866D2183C26E00E8250E /* JLMRootWebView.m in Sources */,
 				9F88E6AC21835695009BD51D /* JLMBaseTabBarController.m in Sources */,
 				9F88E76E21835B73009BD51D /* JxbLogVC.m in Sources */,
+				9F11864F2183BFB600E8250E /* MRBaseUIView.m in Sources */,
 				9F88E79721836AA0009BD51D /* MRUserLoginModel.m in Sources */,
 				9F88E77521835B73009BD51D /* JxbCrashHelper.m in Sources */,
 				9F88E71A2183574E009BD51D /* SGQRCodeScanningView.m in Sources */,
 				9F88E6F72183571A009BD51D /* UILabel+JLMTool.m in Sources */,
 				9F88E76C21835B73009BD51D /* JxbHttpProtocol.m in Sources */,
+				9FE081702183719000FCF2E1 /* JLMShowWebVC.m in Sources */,
 				9F88E6AB21835695009BD51D /* JLMRequsetBaseModel.m in Sources */,
 				9F88E6C72183570A009BD51D /* TLCityHeaderView.m in Sources */,
 				9F4CA1D521834C8C00A7D93E /* main.m in Sources */,
@@ -786,6 +935,7 @@
 				9F88E6C42183570A009BD51D /* TLCCurrentCityCell.m in Sources */,
 				9F88E79521836AA0009BD51D /* MRUserRegisterTwoVC.m in Sources */,
 				9F88E6F42183571A009BD51D /* UILabel+JLMAdd.m in Sources */,
+				9F1186742183C67400E8250E /* MRChangePhoneCodeVC.m in Sources */,
 				9F88E79A21836AA0009BD51D /* CQCountDownButton.m in Sources */,
 				9F88E79921836AA0009BD51D /* MRUserRegisterOneView.m in Sources */,
 				9F88E6A521835695009BD51D /* JLMProgressHUD.m in Sources */,
@@ -958,7 +1108,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YNLT3B3J7K;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.h";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = newCarveOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -977,7 +1127,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YNLT3B3J7K;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.h";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = newCarveOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

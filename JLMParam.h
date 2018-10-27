@@ -19,7 +19,7 @@
 #define kBuglyID                         @"29e6cbfcaa"
 #define kBuglyKey                        @"94296f10-f647-4516-926e-ca35877145df"
 #define kAMapKey                         @"fd3bf5a4-60c9-42f8-8a22-802523ecd13b"
-#define YMAppkey                         @"5bd32906f1f55612fd00040c"
+#define USHARE_DEMO_APPKEY               @"5bd32906f1f55612fd00040c"
 #define kChangePassSendSms               @"customer/sendSms"//修改密码发送验证码
 #define KRegister                        @"customer/register" //注册
 #define kLogin                           @"customer/login"//登录

@@ -49,22 +49,22 @@
     [self loadData];
 }
 -(void)loadData {
-    [YSNetWorkManager requestWithType:(HttpRequestTypeGet) withUrlString:kCity withParaments:nil withSuccessBlock:^(JLMRequsetInfoModel *object) {
-        //            if ([object[@"code"] integerValue]==0) {
-        if ([object.state integerValue]==0) {
-             NSArray *  arr = object.data[@"cityList"];
-            //解析普通城市
-            [self analyseNormalCity:arr];
-            arr = object.data[@"hotCityList"];
-            [self analyseHotCity:arr];
-            //
-        }else{
-            [JLMProgressHUD showMessage:object.msg inView:self.view];
-        }
-    } withFailureBlock:^(NSError *error) {
-        [JLMProgressHUD showMessage:@"获取当前城市失败" inView:self.view];
-    } progress:^(float progress) {
-    }];
+//    [YSNetWorkManager requestWithType:(HttpRequestTypeGet) withUrlString:kCity withParaments:nil withSuccessBlock:^(JLMRequsetInfoModel *object) {
+//        //            if ([object[@"code"] integerValue]==0) {
+//        if ([object.state integerValue]==0) {
+//             NSArray *  arr = object.data[@"cityList"];
+//            //解析普通城市
+//            [self analyseNormalCity:arr];
+//            arr = object.data[@"hotCityList"];
+//            [self analyseHotCity:arr];
+//            //
+//        }else{
+//            [JLMProgressHUD showMessage:object.msg inView:self.view];
+//        }
+//    } withFailureBlock:^(NSError *error) {
+//        [JLMProgressHUD showMessage:@"获取当前城市失败" inView:self.view];
+//    } progress:^(float progress) {
+//    }];
 }
 
 - (void)analyseHotCity:(NSArray *)array

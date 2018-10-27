@@ -9,7 +9,7 @@
 #import "JLMBaseViewController.h"
 #import "JLMBaseTabBarController.h"
 #import "JLMRootNaviController.h"
-#import "JLMUserLoginVC.h"
+#import "MRUserLoginVC.h"
 @interface JLMBaseViewController ()
 
 @end
@@ -124,7 +124,7 @@
     if (arrViewControllers.count == 1) {
         [leftBtn setImage:kImageNamed(@"--") forState:UIControlStateNormal];
     }else{
-        [leftBtn setImage:[UIImage imageNamed:@"jlm_public_back.png"] forState:UIControlStateNormal];
+        [leftBtn setImage:[UIImage imageNamed:@"mr_public_back"] forState:UIControlStateNormal];
     }
     [rightBtn setTitleColor:kSubtitleColor forState:(UIControlStateNormal)];
 }
@@ -267,40 +267,40 @@
 }
 
 -(void)presentModeLoginController {
-    JLMUserLoginVC * vc = [JLMUserLoginVC new];
+    MRUserLoginVC * vc = [MRUserLoginVC new];
     JLMRootNaviController *naviVc = [[JLMRootNaviController alloc] initWithRootViewController:vc];
-    vc.isModeEntry = YES;
+//    vc.isModeEntry = YES;
     [self presentViewController:naviVc animated:YES completion:^{
         
     }];
 }
 //判断用户是否登录 如果未登录请登录
 - (BOOL)checkUserDidLogin{
-    if (![JLMUserLoginModel isLogin]) {
-        JLMUserLoginVC * vc = [JLMUserLoginVC new];
+    if (![MRUserLoginModel isLogin]) {
+        MRUserLoginVC * vc = [MRUserLoginVC new];
         JLMRootNaviController *naviVc = [[JLMRootNaviController alloc] initWithRootViewController:vc];
-        vc.isModeEntry = YES;
+//        vc.isModeEntry = YES;
         [self presentViewController:naviVc animated:YES completion:^{
             
         }];
     }
-    return [JLMUserLoginModel isLogin];
+    return [MRUserLoginModel isLogin];
 }
 //判断用户是否登录 如果未登录请登录
 - (BOOL)checkUserDidLoginWithLoginSuccess:(loginSuccess)block{
-    if (![JLMUserLoginModel isLogin]) {
-        JLMUserLoginVC * vc = [JLMUserLoginVC new];
+    if (![MRUserLoginModel isLogin]) {
+        MRUserLoginVC * vc = [MRUserLoginVC new];
         JLMRootNaviController *naviVc = [[JLMRootNaviController alloc] initWithRootViewController:vc];
-        vc.isModeEntry = YES;
-        vc.isModeDissmiss = YES;
-        vc.loginSuccess = ^{
-            block();
-        };
+//        vc.isModeEntry = YES;
+//        vc.isModeDissmiss = YES;
+//        vc.loginSuccess = ^{
+//            block();
+//        };
         [self presentViewController:naviVc animated:YES completion:^{
             
         }];
     }
-    return [JLMUserLoginModel isLogin];
+    return [MRUserLoginModel isLogin];
     
 }
 - (void)setNavigationControllersWithVC:(NSString*)classString{

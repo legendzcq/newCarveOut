@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-typedef  NS_ENUM(NSInteger,JLMNoDataType){
-    JLMNoDataTypeTop,
-    JLMNoDataTypeCenter,
-};
+//typedef  NS_ENUM(NSInteger,JLMNoDataType){
+//    JLMNoDataTypeTop,
+//    JLMNoDataTypeCenter,
+//};
 /// 点击主屏幕回调
 typedef void(^tapViewWithBlock)();
 @interface UITableViewCell (JLMTips)

@@ -9,11 +9,11 @@
 #import "AppDelegate.h"
 #import <IQKeyboardManager/IQKeyboardManager.h>
 #import "LaunchIntroductionView.h"
-#import <AlipaySDK/AlipaySDK.h>
 #import <Bugly/Bugly.h>
 #import "JxbDebugTool.h"
 #import "NSString+JLMTool.h"
 #import <UMSocialCore/UMSocialCore.h>    // 分享组件
+#import "JLMBaseTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -25,7 +25,6 @@
     // Override point for customization after application launch.
             [[JxbDebugTool shareInstance] setMainColor:[UIColor blackColor]];
             [[JxbDebugTool shareInstance] enableDebugMode];
-    [self getLoction];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     //    已登录
     JLMBaseTabBarController *controller = [[JLMBaseTabBarController alloc] init];
@@ -38,8 +37,6 @@
     LaunchIntroductionView *launch =[LaunchIntroductionView sharedWithImages:@[@"jlm_firstEntry1",@"jlm_firstEntry2",@"jlm_firstEntry3"] buttonImage:@"立即体验" buttonFrame:CGRectMake((kWidth-110)*0.5, kHeight-48-45, 110, 45)];
     launch.currentColor = [UIColor colorWithHexString:@"666768"];
     launch.nomalColor = [UIColor colorWithHexString:@"ecedee"];
-    NSString * kWechatID = @"wxa813f199a6bb611a";
-    [WXApi registerApp:kWechatID];
     
     [self setupUM];   // required: setting platforms on demand
     [self setupBugly];
@@ -138,9 +135,9 @@
     
     if ([url.host isEqualToString:@"safepay"]) {
         //跳转支付宝钱包进行支付，处理支付结果
-        [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
-            NSLog(@"result = %@",resultDic);
-        }];
+//        [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
+//            NSLog(@"result = %@",resultDic);
+//        }];
     }
     return YES;
 }

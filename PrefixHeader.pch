@@ -13,7 +13,25 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 #import "JLMParam.h"
 #import "UIColor+JTMTool.h"
-
+#import <YYKit.h>
+#import <Masonry.h>
+#import <ReactiveObjC.h>
+#import "JLMParam.h"
+#import "MJRefresh.h"
+#import "JLMButton.h"
+#import "MRUserLoginModel.h"
+#import "JLMProgressHUD.h"
+#import "UIView+JLMTool.h"
+#import "UIImage+JLMTool.h"
+#import "UILabel+JLMTool.h"
+#import "UIColor+JTMTool.h"
+#import "NSString+JLMTool.h"
+#import "YSNetWorkManager.h"
+#import "UITableView+JLMHUD.h"
+#import "UIImageView+JLMTool.h"
+#import "JLMBaseViewController.h"
+#import "UIViewController+JLMHUD.h"
+#import "UIImageView+WebCache.h"
 
 #define kWidth  [UIScreen mainScreen].bounds.size.width
 #define kHeight [UIScreen mainScreen].bounds.size.height
@@ -74,4 +92,43 @@
 #define KEY_ATF_UUID  [NSString stringWithFormat:@"%@-mcode",SERVER] //UUID的键名
 
 #define KBottomSafeAreaHeight @available(iOS 11.0, *)?34:0
+
+
+
+
+#define TabbarHeight     ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83:50)
+#define kNaviBarHeight   (44+kStauBarHeiht)
+#define kTableViewSize   CGRectMake(0, kNaviBarHeight, kWidth, kHeight-kNaviBarHeight)
+#define kLineColor        [UIColor colorWithRed:237/255.0 green:237/255.0 blue:237/255.0 alpha:1]
+#define kBtnColor         [UIColor colorWithRed:227/255.0 green:143/255.0 blue:54/255.0 alpha:1]
+#define kMainColor        [UIColor colorWithRed:241/255.0 green:245/255.0 blue:246/255.0 alpha:1]
+#define kTabBGColor       [UIColor colorWithRed:244/255.0 green:245/255.0 blue:246/255.0 alpha:1]
+#define kCommitBtnColor   [UIColor colorWithRed:235/255.0 green:235/255.0 blue:241/255.0 alpha:1]
+#define kColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define kAColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:a]
+#define kTitleColor       [UIColor colorWithHexString:@"333333"]
+#define kSubtitleColor    [UIColor colorWithHexString:@"ABAAAA"]
+#define kUnSelected       [UIColor colorWithHexString:@"999999"]
+#define kTabSelectColor   [UIColor colorWithHexString:@"E99E0F"]
+#define KUndertintTitleColor [UIColor colorWithHexString:@"9F9F9F"]//浅色字体颜色
+#define kOrangeColor      [UIColor colorWithHexString:@"D59F4A"]
+#define kValueColor       [UIColor colorWithHexString:@"F72E00"]
+#define kBuleColor        [UIColor colorWithHexString:@"18BDF4"]
+#define kWhiteColor       [UIColor whiteColor]
+#define kGoodsPlaceholder [UIImage imageNamed:@"mr_tenement_news"]
+#define kUserIconPlaceholder [UIImage imageNamed:@"mr_user_icon"]
+#define kZeroString(str)  [str isNotBlank]?str:@"0"//字符串为空返回0
+#define kMoneyString(str) [NSString stringWithFormat:@"¥%@",kZeroString(str)]
+#define kBlankString(str) [str isNotBlank]?str:@""//字符串为空返回空字符串
+
+#define kSelectCity  [[NSUserDefaults standardUserDefaults]objectForKey:@"locality"]==nil?@"北京":[[NSUserDefaults standardUserDefaults]objectForKey:@"locality"]
+#define kLatitude    [[NSUserDefaults standardUserDefaults]objectForKey:@"latitude"] == nil?@"0.00":[[NSUserDefaults standardUserDefaults]objectForKey:@"latitude"]
+#define kLongitude    [[NSUserDefaults standardUserDefaults]objectForKey:@"longitude"] == nil?@"0.00":[[NSUserDefaults standardUserDefaults]objectForKey:@"longitude"]
+
+#define kImageNamed(image) [UIImage imageNamed:image]
+#define kURL(url)         [NSURL URLWithString:url]
+#define kViewBorderRadius(View, Radius, Width, Color)\ \ [View.layer setCornerRadius:(Radius)];\ [View.layer setMasksToBounds:YES];\ [View.layer setBorderWidth:(Width)];\ [View.layer setBorderColor:[Color CGColor]]
+
+#define kFont(s)     [UIFont fontWithName:@"ArialMT" size:s]
+#define kMainBtnColor        [UIColor colorWithHexString:@"D59F4C"]
 #endif /* PrefixHeader_pch */
