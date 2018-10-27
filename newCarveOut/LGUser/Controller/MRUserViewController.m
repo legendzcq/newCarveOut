@@ -45,6 +45,7 @@
 //    [YSNetWorkManager requestWithType:(HttpRequestTypeGet) withUrlString:kUserIndex withParaments:nil withSuccessBlock:^(MRRequsetInfoModel *model) {
 //        [self.tableView.mj_header endRefreshing];
 //        self.model = [MRUserModel modelWithDictionary:model.data];
+    
 //        [MRUserModel saveUserInfo:self.model];
 //        [self setupHeaderData];
 //    }];
