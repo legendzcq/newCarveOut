@@ -28,7 +28,7 @@
             [[JxbDebugTool shareInstance] enableDebugMode];
     [self setupBugly];
 //    MRBaseTabBarController shardManager]
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[MRAppraiseMyselfVC new]];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[MRUserLoginVC new]];
     navController.navigationBarHidden = YES;
     self.window.rootViewController = navController;
     /* 打开调试日志 */

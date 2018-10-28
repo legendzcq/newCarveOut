@@ -11,12 +11,15 @@
 #import "appraiseModel.h"
 #import "MRAppraiseMyselfCell.h"
 #import "alertAppraiseView.h"
+#import "MRUserMyIdentityVC.h"
 @interface MRAppraiseMyselfVC () <TTGTextTagCollectionViewDelegate,UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet TTGTextTagCollectionView *textTagCollectionView1;
 @property (strong, nonatomic) NSArray *tags;
 @property (nonatomic,strong) NSMutableArray * listArray;
 @property (weak, nonatomic) IBOutlet UILabel *selectTagLab;
 @property (weak, nonatomic) IBOutlet UIView *backVIew;
+@property (weak,nonatomic)IBOutlet UITableView * myTableView;
+@property (weak, nonatomic) IBOutlet UIButton *commitBtn;
 
 @end
 
@@ -101,22 +104,18 @@
     if (ios11) {
         self.automaticallyAdjustsScrollViewInsets = YES;
     }
-    self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(12, CGRectGetMaxY(self.selectTagLab.frame)+52, kWidth-24, kHeight-CGRectGetMaxY(self.selectTagLab.frame)-20) style:(UITableViewStylePlain)];
-    [self.backVIew addSubview:self.tableView];
-    self.tableView.delegate = self;
-    self.tableView.dataSource= self;
-    self.tableView.showsVerticalScrollIndicator = NO;
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    [self.tableView registerNib:[UINib nibWithNibName:@"MRAppraiseMyselfCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"MRAppraiseMyselfCell"];
+//    self.myTableView = [[UITableView alloc]initWithFrame:CGRectMake(12, CGRectGetMaxY(self.selectTagLab.frame)+52, kWidth-24, kHeight-CGRectGetMaxY(self.selectTagLab.frame)-20) style:(UITableViewStylePlain)];
+//    [self.backVIew addSubview:self.myTableView];
+    self.myTableView.delegate = self;
+    self.myTableView.dataSource= self;
+    self.myTableView.showsVerticalScrollIndicator = NO;
+    self.myTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    [self.myTableView registerNib:[UINib nibWithNibName:@"MRAppraiseMyselfCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"MRAppraiseMyselfCell"];
     
     
     
 }
-- (void)viewWillLayoutSubviews
-{
-    [super viewWillLayoutSubviews];
-    self.tableView.frame = CGRectMake(12, CGRectGetMaxY(self.selectTagLab.frame)+12, kWidth-24,300);
-}
+
 #pragma mark - TTGTextTagCollectionViewDelegate
 
 - (void)textTagCollectionView:(TTGTextTagCollectionView *)textTagCollectionView didTapTag:(NSString *)tagText atIndex:(NSUInteger)index selected:(BOOL)selected tagConfig:(TTGTextTagConfig *)config {
@@ -131,7 +130,7 @@
             model.skill = tagText;
             model.rank = [NSString stringWithFormat:@"%.1f",index];
             [self.listArray addObject:model];
-            [self.tableView reloadData];
+            [self.myTableView reloadData];
         };
         [xlAlertView showXLAlertView];
     }else
@@ -144,7 +143,7 @@
         }
         
         self.listArray = tempArray;
-        [self.tableView reloadData];
+        [self.myTableView reloadData];
     }
 }
 
@@ -187,7 +186,7 @@
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         
         [self.listArray removeObjectAtIndex:indexPath.row];
-        [self.tableView reloadData];
+        [self.myTableView reloadData];
     }
 }
 
@@ -195,6 +194,14 @@
 - (NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath {
     return @"删除";
     
+}
+- (IBAction)commitBtnClick:(id)sender {
+    if (!self.listArray.count) {
+        [MRProgressHUD showMessage:@"技能不能为空" inView:self.view];
+        return;
+    }
+    MRUserMyIdentityVC * vc = [MRUserMyIdentityVC new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

@@ -11,6 +11,47 @@
 		9F11864C2183BE8C00E8250E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F11864B2183BE8C00E8250E /* Default-568h@2x.png */; };
 		9F11866D2183C26E00E8250E /* JLMRootWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F11866B2183C26E00E8250E /* JLMRootWebView.m */; };
 		9F1186702183C28600E8250E /* SGWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F11866E2183C28500E8250E /* SGWebView.m */; };
+		9F202D6A2185341E00091DBE /* YJAnswerPopTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D202185341D00091DBE /* YJAnswerPopTopView.m */; };
+		9F202D6B2185341E00091DBE /* YJAnswerPopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D212185341D00091DBE /* YJAnswerPopCollectionViewCell.m */; };
+		9F202D6C2185341E00091DBE /* YJAnswerPopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F202D222185341D00091DBE /* YJAnswerPopCollectionViewCell.xib */; };
+		9F202D6D2185341E00091DBE /* YJAnswerPopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D262185341D00091DBE /* YJAnswerPopModel.m */; };
+		9F202D6E2185341E00091DBE /* YJAnswerPopTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F202D282185341D00091DBE /* YJAnswerPopTopView.xib */; };
+		9F202D6F2185341E00091DBE /* YJAnswerPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D292185341D00091DBE /* YJAnswerPopViewController.m */; };
+		9F202D702185341E00091DBE /* MYPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D2B2185341D00091DBE /* MYPresentationController.m */; };
+		9F202D712185341E00091DBE /* MYPresentedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D2D2185341D00091DBE /* MYPresentedController.m */; };
+		9F202D722185341E00091DBE /* MYPresentAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D2E2185341D00091DBE /* MYPresentAnimationManager.m */; };
+		9F202D732185341E00091DBE /* MYColorBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D302185341D00091DBE /* MYColorBackView.m */; };
+		9F202D742185341E00091DBE /* 类型齐全.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F202D372185341D00091DBE /* 类型齐全.json */; };
+		9F202D752185341E00091DBE /* 文字题.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F202D382185341D00091DBE /* 文字题.json */; };
+		9F202D762185341E00091DBE /* 不定项选择题.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F202D392185341D00091DBE /* 不定项选择题.json */; };
+		9F202D772185341E00091DBE /* 单选题.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F202D3A2185341D00091DBE /* 单选题.json */; };
+		9F202D782185341E00091DBE /* 填空题.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F202D3B2185341D00091DBE /* 填空题.json */; };
+		9F202D792185341E00091DBE /* 成绩报告.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F202D3C2185341D00091DBE /* 成绩报告.json */; };
+		9F202D7A2185341E00091DBE /* NSString+StringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D3D2185341D00091DBE /* NSString+StringSize.m */; };
+		9F202D7B2185341E00091DBE /* YJ_GCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D3E2185341D00091DBE /* YJ_GCDTimerManager.m */; };
+		9F202D7C2185341E00091DBE /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D402185341D00091DBE /* AnswerViewController.m */; };
+		9F202D7D2185341E00091DBE /* CategoryQuestionListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D472185341D00091DBE /* CategoryQuestionListModel.m */; };
+		9F202D7E2185341E00091DBE /* ChoiceOptionListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D492185341D00091DBE /* ChoiceOptionListModel.m */; };
+		9F202D7F2185341E00091DBE /* ChoiceOptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D4A2185341D00091DBE /* ChoiceOptionModel.m */; };
+		9F202D802185341E00091DBE /* QuestionListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D4B2185341D00091DBE /* QuestionListModel.m */; };
+		9F202D812185341E00091DBE /* ScoreReportModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D4C2185341D00091DBE /* ScoreReportModel.m */; };
+		9F202D822185341E00091DBE /* TestTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D4D2185341D00091DBE /* TestTypeModel.m */; };
+		9F202D832185341E00091DBE /* AnswerTestInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D4E2185341D00091DBE /* AnswerTestInfoModel.m */; };
+		9F202D842185341E00091DBE /* AnswerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D522185341D00091DBE /* AnswerModel.m */; };
+		9F202D852185341E00091DBE /* AnswerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D542185341D00091DBE /* AnswerHeaderView.m */; };
+		9F202D862185341E00091DBE /* AnswerResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F202D562185341D00091DBE /* AnswerResultTableViewCell.xib */; };
+		9F202D872185341E00091DBE /* AnswerDetailedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D582185341D00091DBE /* AnswerDetailedTableViewCell.m */; };
+		9F202D882185341E00091DBE /* AnswerCompletionResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F202D5A2185341D00091DBE /* AnswerCompletionResultTableViewCell.xib */; };
+		9F202D892185341E00091DBE /* AnswerOptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F202D5C2185341D00091DBE /* AnswerOptionTableViewCell.xib */; };
+		9F202D8A2185341E00091DBE /* AnswerJudgeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D602185341D00091DBE /* AnswerJudgeTableViewCell.m */; };
+		9F202D8B2185341E00091DBE /* AnswerOptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D612185341D00091DBE /* AnswerOptionTableViewCell.m */; };
+		9F202D8C2185341E00091DBE /* AnswerWordProblemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F202D632185341D00091DBE /* AnswerWordProblemTableViewCell.xib */; };
+		9F202D8D2185341E00091DBE /* AnswerCompletionResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D642185341D00091DBE /* AnswerCompletionResultTableViewCell.m */; };
+		9F202D8E2185341E00091DBE /* AnswerDetailedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F202D652185341D00091DBE /* AnswerDetailedTableViewCell.xib */; };
+		9F202D8F2185341E00091DBE /* AnswerResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D662185341D00091DBE /* AnswerResultTableViewCell.m */; };
+		9F202D902185341E00091DBE /* AnswerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D672185341D00091DBE /* AnswerCollectionViewCell.m */; };
+		9F202D912185341E00091DBE /* AnswerWordProblemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F202D682185341D00091DBE /* AnswerWordProblemTableViewCell.m */; };
+		9F202D922185341E00091DBE /* AnswerJudgeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F202D692185341D00091DBE /* AnswerJudgeTableViewCell.xib */; };
 		9F2DB88421847136006518FF /* MRAppraiseMyselfVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2DB88221847136006518FF /* MRAppraiseMyselfVC.m */; };
 		9F2DB88521847136006518FF /* MRAppraiseMyselfVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2DB88321847136006518FF /* MRAppraiseMyselfVC.xib */; };
 		9F4CA1C721834C8B00A7D93E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4CA1C621834C8B00A7D93E /* AppDelegate.m */; };
@@ -152,6 +193,75 @@
 		9F11866C2183C26E00E8250E /* JLMRootWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMRootWebView.h; sourceTree = "<group>"; };
 		9F11866E2183C28500E8250E /* SGWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGWebView.m; sourceTree = "<group>"; };
 		9F11866F2183C28600E8250E /* SGWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGWebView.h; sourceTree = "<group>"; };
+		9F202D202185341D00091DBE /* YJAnswerPopTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJAnswerPopTopView.m; sourceTree = "<group>"; };
+		9F202D212185341D00091DBE /* YJAnswerPopCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJAnswerPopCollectionViewCell.m; sourceTree = "<group>"; };
+		9F202D222185341D00091DBE /* YJAnswerPopCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJAnswerPopCollectionViewCell.xib; sourceTree = "<group>"; };
+		9F202D232185341D00091DBE /* YJAnswerPopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJAnswerPopModel.h; sourceTree = "<group>"; };
+		9F202D242185341D00091DBE /* YJAnswerPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJAnswerPopViewController.h; sourceTree = "<group>"; };
+		9F202D252185341D00091DBE /* YJAnswerPopTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJAnswerPopTopView.h; sourceTree = "<group>"; };
+		9F202D262185341D00091DBE /* YJAnswerPopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJAnswerPopModel.m; sourceTree = "<group>"; };
+		9F202D272185341D00091DBE /* YJAnswerPopCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJAnswerPopCollectionViewCell.h; sourceTree = "<group>"; };
+		9F202D282185341D00091DBE /* YJAnswerPopTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJAnswerPopTopView.xib; sourceTree = "<group>"; };
+		9F202D292185341D00091DBE /* YJAnswerPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJAnswerPopViewController.m; sourceTree = "<group>"; };
+		9F202D2B2185341D00091DBE /* MYPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPresentationController.m; sourceTree = "<group>"; };
+		9F202D2C2185341D00091DBE /* MYColorBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYColorBackView.h; sourceTree = "<group>"; };
+		9F202D2D2185341D00091DBE /* MYPresentedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPresentedController.m; sourceTree = "<group>"; };
+		9F202D2E2185341D00091DBE /* MYPresentAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPresentAnimationManager.m; sourceTree = "<group>"; };
+		9F202D2F2185341D00091DBE /* MYPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPresentationController.h; sourceTree = "<group>"; };
+		9F202D302185341D00091DBE /* MYColorBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYColorBackView.m; sourceTree = "<group>"; };
+		9F202D312185341D00091DBE /* MYPresentAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPresentAnimationManager.h; sourceTree = "<group>"; };
+		9F202D322185341D00091DBE /* MYPresentedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPresentedController.h; sourceTree = "<group>"; };
+		9F202D332185341D00091DBE /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		9F202D342185341D00091DBE /* NSString+StringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringSize.h"; sourceTree = "<group>"; };
+		9F202D352185341D00091DBE /* YJ_GCDTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJ_GCDTimerManager.h; sourceTree = "<group>"; };
+		9F202D372185341D00091DBE /* 类型齐全.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "类型齐全.json"; sourceTree = "<group>"; };
+		9F202D382185341D00091DBE /* 文字题.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "文字题.json"; sourceTree = "<group>"; };
+		9F202D392185341D00091DBE /* 不定项选择题.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "不定项选择题.json"; sourceTree = "<group>"; };
+		9F202D3A2185341D00091DBE /* 单选题.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "单选题.json"; sourceTree = "<group>"; };
+		9F202D3B2185341D00091DBE /* 填空题.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "填空题.json"; sourceTree = "<group>"; };
+		9F202D3C2185341D00091DBE /* 成绩报告.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "成绩报告.json"; sourceTree = "<group>"; };
+		9F202D3D2185341D00091DBE /* NSString+StringSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringSize.m"; sourceTree = "<group>"; };
+		9F202D3E2185341D00091DBE /* YJ_GCDTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJ_GCDTimerManager.m; sourceTree = "<group>"; };
+		9F202D402185341D00091DBE /* AnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
+		9F202D412185341D00091DBE /* AnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerViewController.h; sourceTree = "<group>"; };
+		9F202D432185341D00091DBE /* QuestionListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionListModel.h; sourceTree = "<group>"; };
+		9F202D442185341D00091DBE /* AnswerTestInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerTestInfoModel.h; sourceTree = "<group>"; };
+		9F202D452185341D00091DBE /* TestTypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTypeModel.h; sourceTree = "<group>"; };
+		9F202D462185341D00091DBE /* ScoreReportModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreReportModel.h; sourceTree = "<group>"; };
+		9F202D472185341D00091DBE /* CategoryQuestionListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryQuestionListModel.m; sourceTree = "<group>"; };
+		9F202D482185341D00091DBE /* AnswerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerModel.h; sourceTree = "<group>"; };
+		9F202D492185341D00091DBE /* ChoiceOptionListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceOptionListModel.m; sourceTree = "<group>"; };
+		9F202D4A2185341D00091DBE /* ChoiceOptionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceOptionModel.m; sourceTree = "<group>"; };
+		9F202D4B2185341D00091DBE /* QuestionListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionListModel.m; sourceTree = "<group>"; };
+		9F202D4C2185341D00091DBE /* ScoreReportModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreReportModel.m; sourceTree = "<group>"; };
+		9F202D4D2185341D00091DBE /* TestTypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTypeModel.m; sourceTree = "<group>"; };
+		9F202D4E2185341D00091DBE /* AnswerTestInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerTestInfoModel.m; sourceTree = "<group>"; };
+		9F202D4F2185341D00091DBE /* ChoiceOptionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceOptionModel.h; sourceTree = "<group>"; };
+		9F202D502185341D00091DBE /* ChoiceOptionListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceOptionListModel.h; sourceTree = "<group>"; };
+		9F202D512185341D00091DBE /* CategoryQuestionListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryQuestionListModel.h; sourceTree = "<group>"; };
+		9F202D522185341D00091DBE /* AnswerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerModel.m; sourceTree = "<group>"; };
+		9F202D542185341D00091DBE /* AnswerHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerHeaderView.m; sourceTree = "<group>"; };
+		9F202D552185341D00091DBE /* AnswerJudgeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerJudgeTableViewCell.h; sourceTree = "<group>"; };
+		9F202D562185341D00091DBE /* AnswerResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerResultTableViewCell.xib; sourceTree = "<group>"; };
+		9F202D572185341D00091DBE /* AnswerCompletionResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerCompletionResultTableViewCell.h; sourceTree = "<group>"; };
+		9F202D582185341D00091DBE /* AnswerDetailedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerDetailedTableViewCell.m; sourceTree = "<group>"; };
+		9F202D592185341D00091DBE /* AnswerOptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerOptionTableViewCell.h; sourceTree = "<group>"; };
+		9F202D5A2185341D00091DBE /* AnswerCompletionResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerCompletionResultTableViewCell.xib; sourceTree = "<group>"; };
+		9F202D5B2185341D00091DBE /* AnswerWordProblemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerWordProblemTableViewCell.h; sourceTree = "<group>"; };
+		9F202D5C2185341D00091DBE /* AnswerOptionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerOptionTableViewCell.xib; sourceTree = "<group>"; };
+		9F202D5D2185341D00091DBE /* AnswerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerCollectionViewCell.h; sourceTree = "<group>"; };
+		9F202D5E2185341D00091DBE /* AnswerResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerResultTableViewCell.h; sourceTree = "<group>"; };
+		9F202D5F2185341D00091DBE /* AnswerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerHeaderView.h; sourceTree = "<group>"; };
+		9F202D602185341D00091DBE /* AnswerJudgeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerJudgeTableViewCell.m; sourceTree = "<group>"; };
+		9F202D612185341D00091DBE /* AnswerOptionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerOptionTableViewCell.m; sourceTree = "<group>"; };
+		9F202D622185341D00091DBE /* AnswerDetailedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerDetailedTableViewCell.h; sourceTree = "<group>"; };
+		9F202D632185341D00091DBE /* AnswerWordProblemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerWordProblemTableViewCell.xib; sourceTree = "<group>"; };
+		9F202D642185341D00091DBE /* AnswerCompletionResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerCompletionResultTableViewCell.m; sourceTree = "<group>"; };
+		9F202D652185341D00091DBE /* AnswerDetailedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerDetailedTableViewCell.xib; sourceTree = "<group>"; };
+		9F202D662185341D00091DBE /* AnswerResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerResultTableViewCell.m; sourceTree = "<group>"; };
+		9F202D672185341D00091DBE /* AnswerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerCollectionViewCell.m; sourceTree = "<group>"; };
+		9F202D682185341D00091DBE /* AnswerWordProblemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerWordProblemTableViewCell.m; sourceTree = "<group>"; };
+		9F202D692185341D00091DBE /* AnswerJudgeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerJudgeTableViewCell.xib; sourceTree = "<group>"; };
 		9F2DB88121847136006518FF /* MRAppraiseMyselfVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRAppraiseMyselfVC.h; sourceTree = "<group>"; };
 		9F2DB88221847136006518FF /* MRAppraiseMyselfVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAppraiseMyselfVC.m; sourceTree = "<group>"; };
 		9F2DB88321847136006518FF /* MRAppraiseMyselfVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MRAppraiseMyselfVC.xib; sourceTree = "<group>"; };
@@ -428,9 +538,6 @@
 		9F1186642183C19100E8250E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9FEB120321842B0D009565E6 /* MRUserMyIdentityVC.h */,
-				9FEB120521842B0D009565E6 /* MRUserMyIdentityVC.m */,
-				9FEB120421842B0D009565E6 /* MRUserMyIdentityVC.xib */,
 				9FEB120021842ADB009565E6 /* MRUserSafeMainVC.h */,
 				9FEB120121842ADC009565E6 /* MRUserSafeMainVC.m */,
 				9FEB11FC21842AAC009565E6 /* MRChangePwdCodeVC.h */,
@@ -505,6 +612,138 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		9F202D1D2185341D00091DBE /* examination */ = {
+			isa = PBXGroup;
+			children = (
+				9F202D1E2185341D00091DBE /* Other */,
+				9F202D3F2185341D00091DBE /* Controller */,
+				9F202D422185341D00091DBE /* Model */,
+				9F202D532185341D00091DBE /* View */,
+			);
+			path = examination;
+			sourceTree = "<group>";
+		};
+		9F202D1E2185341D00091DBE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9F202D1F2185341D00091DBE /* YJAnswerPop */,
+				9F202D332185341D00091DBE /* Header.h */,
+				9F202D342185341D00091DBE /* NSString+StringSize.h */,
+				9F202D352185341D00091DBE /* YJ_GCDTimerManager.h */,
+				9F202D362185341D00091DBE /* Resource */,
+				9F202D3D2185341D00091DBE /* NSString+StringSize.m */,
+				9F202D3E2185341D00091DBE /* YJ_GCDTimerManager.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9F202D1F2185341D00091DBE /* YJAnswerPop */ = {
+			isa = PBXGroup;
+			children = (
+				9F202D202185341D00091DBE /* YJAnswerPopTopView.m */,
+				9F202D212185341D00091DBE /* YJAnswerPopCollectionViewCell.m */,
+				9F202D222185341D00091DBE /* YJAnswerPopCollectionViewCell.xib */,
+				9F202D232185341D00091DBE /* YJAnswerPopModel.h */,
+				9F202D242185341D00091DBE /* YJAnswerPopViewController.h */,
+				9F202D252185341D00091DBE /* YJAnswerPopTopView.h */,
+				9F202D262185341D00091DBE /* YJAnswerPopModel.m */,
+				9F202D272185341D00091DBE /* YJAnswerPopCollectionViewCell.h */,
+				9F202D282185341D00091DBE /* YJAnswerPopTopView.xib */,
+				9F202D292185341D00091DBE /* YJAnswerPopViewController.m */,
+				9F202D2A2185341D00091DBE /* MYPresentation */,
+			);
+			path = YJAnswerPop;
+			sourceTree = "<group>";
+		};
+		9F202D2A2185341D00091DBE /* MYPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				9F202D2B2185341D00091DBE /* MYPresentationController.m */,
+				9F202D2C2185341D00091DBE /* MYColorBackView.h */,
+				9F202D2D2185341D00091DBE /* MYPresentedController.m */,
+				9F202D2E2185341D00091DBE /* MYPresentAnimationManager.m */,
+				9F202D2F2185341D00091DBE /* MYPresentationController.h */,
+				9F202D302185341D00091DBE /* MYColorBackView.m */,
+				9F202D312185341D00091DBE /* MYPresentAnimationManager.h */,
+				9F202D322185341D00091DBE /* MYPresentedController.h */,
+			);
+			path = MYPresentation;
+			sourceTree = "<group>";
+		};
+		9F202D362185341D00091DBE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9F202D372185341D00091DBE /* 类型齐全.json */,
+				9F202D382185341D00091DBE /* 文字题.json */,
+				9F202D392185341D00091DBE /* 不定项选择题.json */,
+				9F202D3A2185341D00091DBE /* 单选题.json */,
+				9F202D3B2185341D00091DBE /* 填空题.json */,
+				9F202D3C2185341D00091DBE /* 成绩报告.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9F202D3F2185341D00091DBE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F202D402185341D00091DBE /* AnswerViewController.m */,
+				9F202D412185341D00091DBE /* AnswerViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9F202D422185341D00091DBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F202D432185341D00091DBE /* QuestionListModel.h */,
+				9F202D442185341D00091DBE /* AnswerTestInfoModel.h */,
+				9F202D452185341D00091DBE /* TestTypeModel.h */,
+				9F202D462185341D00091DBE /* ScoreReportModel.h */,
+				9F202D472185341D00091DBE /* CategoryQuestionListModel.m */,
+				9F202D482185341D00091DBE /* AnswerModel.h */,
+				9F202D492185341D00091DBE /* ChoiceOptionListModel.m */,
+				9F202D4A2185341D00091DBE /* ChoiceOptionModel.m */,
+				9F202D4B2185341D00091DBE /* QuestionListModel.m */,
+				9F202D4C2185341D00091DBE /* ScoreReportModel.m */,
+				9F202D4D2185341D00091DBE /* TestTypeModel.m */,
+				9F202D4E2185341D00091DBE /* AnswerTestInfoModel.m */,
+				9F202D4F2185341D00091DBE /* ChoiceOptionModel.h */,
+				9F202D502185341D00091DBE /* ChoiceOptionListModel.h */,
+				9F202D512185341D00091DBE /* CategoryQuestionListModel.h */,
+				9F202D522185341D00091DBE /* AnswerModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F202D532185341D00091DBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F202D542185341D00091DBE /* AnswerHeaderView.m */,
+				9F202D552185341D00091DBE /* AnswerJudgeTableViewCell.h */,
+				9F202D562185341D00091DBE /* AnswerResultTableViewCell.xib */,
+				9F202D572185341D00091DBE /* AnswerCompletionResultTableViewCell.h */,
+				9F202D582185341D00091DBE /* AnswerDetailedTableViewCell.m */,
+				9F202D592185341D00091DBE /* AnswerOptionTableViewCell.h */,
+				9F202D5A2185341D00091DBE /* AnswerCompletionResultTableViewCell.xib */,
+				9F202D5B2185341D00091DBE /* AnswerWordProblemTableViewCell.h */,
+				9F202D5C2185341D00091DBE /* AnswerOptionTableViewCell.xib */,
+				9F202D5D2185341D00091DBE /* AnswerCollectionViewCell.h */,
+				9F202D5E2185341D00091DBE /* AnswerResultTableViewCell.h */,
+				9F202D5F2185341D00091DBE /* AnswerHeaderView.h */,
+				9F202D602185341D00091DBE /* AnswerJudgeTableViewCell.m */,
+				9F202D612185341D00091DBE /* AnswerOptionTableViewCell.m */,
+				9F202D622185341D00091DBE /* AnswerDetailedTableViewCell.h */,
+				9F202D632185341D00091DBE /* AnswerWordProblemTableViewCell.xib */,
+				9F202D642185341D00091DBE /* AnswerCompletionResultTableViewCell.m */,
+				9F202D652185341D00091DBE /* AnswerDetailedTableViewCell.xib */,
+				9F202D662185341D00091DBE /* AnswerResultTableViewCell.m */,
+				9F202D672185341D00091DBE /* AnswerCollectionViewCell.m */,
+				9F202D682185341D00091DBE /* AnswerWordProblemTableViewCell.m */,
+				9F202D692185341D00091DBE /* AnswerJudgeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9F4CA1B921834C8B00A7D93E = {
 			isa = PBXGroup;
 			children = (
@@ -530,6 +769,7 @@
 		9F4CA1C421834C8B00A7D93E /* newCarveOut */ = {
 			isa = PBXGroup;
 			children = (
+				9F202D1D2185341D00091DBE /* examination */,
 				9FEB112E218414E1009565E6 /* MRLogin */,
 				9F4CA1D321834C8C00A7D93E /* Info.plist */,
 				9F1186632183C19100E8250E /* LGUser */,
@@ -776,6 +1016,9 @@
 		9FEB1130218414E1009565E6 /* vc */ = {
 			isa = PBXGroup;
 			children = (
+				9FEB120321842B0D009565E6 /* MRUserMyIdentityVC.h */,
+				9FEB120521842B0D009565E6 /* MRUserMyIdentityVC.m */,
+				9FEB120421842B0D009565E6 /* MRUserMyIdentityVC.xib */,
 				9FEB1134218414E1009565E6 /* MRUserLoginVC.h */,
 				9FEB113C218414E1009565E6 /* MRUserLoginVC.m */,
 				9FEB113A218414E1009565E6 /* MRUserCodeLoginVC.h */,
@@ -936,28 +1179,42 @@
 			files = (
 				9FEB11C921842624009565E6 /* MRUserChangeInfoVC.xib in Resources */,
 				9FEB11D721842725009565E6 /* MRUserShowOrderNumView.xib in Resources */,
+				9F202D8E2185341E00091DBE /* AnswerDetailedTableViewCell.xib in Resources */,
 				9FEB11F521842A85009565E6 /* MRChangePwdMainVC.xib in Resources */,
 				9F88E7172183574E009BD51D /* SGQRCode.bundle in Resources */,
 				9F4CA1D221834C8C00A7D93E /* LaunchScreen.storyboard in Resources */,
+				9F202D6E2185341E00091DBE /* YJAnswerPopTopView.xib in Resources */,
+				9F202D772185341E00091DBE /* 单选题.json in Resources */,
+				9F202D752185341E00091DBE /* 文字题.json in Resources */,
 				9FFE5031218484F50052E57F /* MRAppraiseMyselfCell.xib in Resources */,
 				9F4CA1CF21834C8C00A7D93E /* Assets.xcassets in Resources */,
 				9FEB120621842B0D009565E6 /* MRUserMyIdentityVC.xib in Resources */,
 				9FEB120C21842BD5009565E6 /* MRTenementViewController.xib in Resources */,
 				9FEB11E321842851009565E6 /* MRUserWalletCell.xib in Resources */,
+				9F202D782185341E00091DBE /* 填空题.json in Resources */,
 				9F4CA1CD21834C8B00A7D93E /* Main.storyboard in Resources */,
 				9F88E6C22183570A009BD51D /* CityData.plist in Resources */,
 				9FEB1151218414E1009565E6 /* MRChangePwdCodeNewVC.xib in Resources */,
+				9F202D742185341E00091DBE /* 类型齐全.json in Resources */,
+				9F202D922185341E00091DBE /* AnswerJudgeTableViewCell.xib in Resources */,
 				9FEB1153218414E1009565E6 /* MRChangePhoneCodeVC.xib in Resources */,
 				9FEB11EF21842A0E009565E6 /* MRUserShowImageCell.xib in Resources */,
+				9F202D882185341E00091DBE /* AnswerCompletionResultTableViewCell.xib in Resources */,
 				9FEB115B218414E1009565E6 /* loginmovie.mp4 in Resources */,
 				9FEB121621842CC9009565E6 /* MRLifeViewController.xib in Resources */,
 				9FEB121121842C68009565E6 /* MRApartmentViewController.xib in Resources */,
 				9FEB117321841AF0009565E6 /* LaunchScreen.storyboard in Resources */,
 				9FEB11FA21842A9E009565E6 /* MRChangePwdOrgainVC.xib in Resources */,
+				9F202D862185341E00091DBE /* AnswerResultTableViewCell.xib in Resources */,
+				9F202D8C2185341E00091DBE /* AnswerWordProblemTableViewCell.xib in Resources */,
+				9F202D792185341E00091DBE /* 成绩报告.json in Resources */,
 				9F11864C2183BE8C00E8250E /* Default-568h@2x.png in Resources */,
+				9F202D762185341E00091DBE /* 不定项选择题.json in Resources */,
+				9F202D892185341E00091DBE /* AnswerOptionTableViewCell.xib in Resources */,
 				9F2DB88521847136006518FF /* MRAppraiseMyselfVC.xib in Resources */,
 				9FEB115C218414E1009565E6 /* login_video.mp4 in Resources */,
 				9FEB11FE21842AAD009565E6 /* MRChangePwdCodeVC.xib in Resources */,
+				9F202D6C2185341E00091DBE /* YJAnswerPopCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1022,6 +1279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FEB117A21841AF0009565E6 /* MRRootWebView.m in Sources */,
+				9F202D852185341E00091DBE /* AnswerHeaderView.m in Sources */,
 				9F88E70521835742009BD51D /* XIAlertModalBackgroundView.m in Sources */,
 				9FFE503A218491FD0052E57F /* alertAppraiseView.m in Sources */,
 				9FEB117621841AF0009565E6 /* MRProgressHUD.m in Sources */,
@@ -1030,11 +1288,14 @@
 				9FFE5037218491040052E57F /* FFTVerAlertView.m in Sources */,
 				9FEB11A021841C41009565E6 /* UIView+PlaceholderView.m in Sources */,
 				9FEB11F921842A9E009565E6 /* MRChangePwdOrgainVC.m in Sources */,
+				9F202D7D2185341E00091DBE /* CategoryQuestionListModel.m in Sources */,
 				9FEB114F218414E1009565E6 /* MRChangePhoneCodeVC.m in Sources */,
+				9F202D902185341E00091DBE /* AnswerCollectionViewCell.m in Sources */,
 				9FEB1157218414E1009565E6 /* MRUserLoginView.m in Sources */,
 				9F88E7192183574E009BD51D /* SGQRCodeHelperTool.m in Sources */,
 				9F88E6C52183570A009BD51D /* TLCityPickerController.m in Sources */,
 				9F88E77421835B73009BD51D /* JxbHttpDetailVC.m in Sources */,
+				9F202D8F2185341E00091DBE /* AnswerResultTableViewCell.m in Sources */,
 				9FEB11EB218428DC009565E6 /* MRUserInformationModel.m in Sources */,
 				9F88E77B21835B73009BD51D /* JxbHttpDatasource.m in Sources */,
 				9FEB11DE21842839009565E6 /* MRUserWalletHeaderView.m in Sources */,
@@ -1044,6 +1305,7 @@
 				9F88E77921835B73009BD51D /* JxbMemoryHelper.m in Sources */,
 				9F88E73E21835862009BD51D /* YSTabItem.m in Sources */,
 				9FEB11A721841C41009565E6 /* UITableView+MRHUD.m in Sources */,
+				9F202D6D2185341E00091DBE /* YJAnswerPopModel.m in Sources */,
 				9F88E6B1218356F6009BD51D /* LaunchIntroductionView.m in Sources */,
 				9FEB11F421842A85009565E6 /* MRChangePwdMainVC.m in Sources */,
 				9FEB11A121841C41009565E6 /* UIImage+MRTool.m in Sources */,
@@ -1057,30 +1319,40 @@
 				9FEB11B021842010009565E6 /* MRUserLoginModel.m in Sources */,
 				9FEB1155218414E1009565E6 /* MRUserLoginVC.m in Sources */,
 				9F88E71B2183574E009BD51D /* SGQRCodeScanManager.m in Sources */,
+				9F202D732185341E00091DBE /* MYColorBackView.m in Sources */,
+				9F202D7F2185341E00091DBE /* ChoiceOptionModel.m in Sources */,
 				9FEB120B21842BD5009565E6 /* MRTenementViewController.m in Sources */,
 				9F88E71D2183574E009BD51D /* SGQRCodeAlbumManager.m in Sources */,
 				9FEB121B21842ED8009565E6 /* MRBaseUIView.m in Sources */,
 				9F88E77221835B73009BD51D /* NSURLRequest+Identify.m in Sources */,
 				9FEB119E21841C41009565E6 /* UIScrollView+APParallaxHeader.m in Sources */,
 				9F88E73F21835862009BD51D /* YSTabBar.m in Sources */,
+				9F202D822185341E00091DBE /* TestTypeModel.m in Sources */,
 				9FEB11A521841C41009565E6 /* UIButton+MRTool.m in Sources */,
 				9FEB114E218414E1009565E6 /* MRUserCodeLoginVC.m in Sources */,
 				9FEB117B21841AF0009565E6 /* MRPublicModel.m in Sources */,
 				9F11866D2183C26E00E8250E /* JLMRootWebView.m in Sources */,
 				9FEB1159218414E1009565E6 /* CQCountDownButton.m in Sources */,
 				9FEB11D3218426EE009565E6 /* MRUserWalletVC.m in Sources */,
+				9F202D832185341E00091DBE /* AnswerTestInfoModel.m in Sources */,
 				9FEB11A421841C41009565E6 /* UIColor+MRTool.m in Sources */,
+				9F202D7C2185341E00091DBE /* AnswerViewController.m in Sources */,
 				9FEB1158218414E1009565E6 /* MRUserRegisterOneView.m in Sources */,
 				9F88E76E21835B73009BD51D /* JxbLogVC.m in Sources */,
 				9FEB121521842CC9009565E6 /* MRLifeViewController.m in Sources */,
+				9F202D912185341E00091DBE /* AnswerWordProblemTableViewCell.m in Sources */,
 				9F88E77521835B73009BD51D /* JxbCrashHelper.m in Sources */,
+				9F202D812185341E00091DBE /* ScoreReportModel.m in Sources */,
 				9F88E71A2183574E009BD51D /* SGQRCodeScanningView.m in Sources */,
+				9F202D722185341E00091DBE /* MYPresentAnimationManager.m in Sources */,
+				9F202D6F2185341E00091DBE /* YJAnswerPopViewController.m in Sources */,
 				9FEB11B321842322009565E6 /* MRUserSettingCell.m in Sources */,
 				9FEB119F21841C41009565E6 /* UITableViewCell+MRTips.m in Sources */,
 				9FEB120721842B0D009565E6 /* MRUserMyIdentityVC.m in Sources */,
 				9FEB11AA21841F49009565E6 /* MRUserViewController.m in Sources */,
 				9F88E76C21835B73009BD51D /* JxbHttpProtocol.m in Sources */,
 				9FE081702183719000FCF2E1 /* JLMShowWebVC.m in Sources */,
+				9F202D6A2185341E00091DBE /* YJAnswerPopTopView.m in Sources */,
 				9F88E6C72183570A009BD51D /* TLCityHeaderView.m in Sources */,
 				9F4CA1D521834C8C00A7D93E /* main.m in Sources */,
 				9FEB11FF21842AAD009565E6 /* MRChangePwdCodeVC.m in Sources */,
@@ -1090,13 +1362,19 @@
 				9FEB117C21841AF0009565E6 /* YSNetWorkManager.m in Sources */,
 				9F88E77A21835B73009BD51D /* JxbHttpVC.m in Sources */,
 				9F88E77821835B73009BD51D /* JxbDebugTool.m in Sources */,
+				9F202D7E2185341E00091DBE /* ChoiceOptionListModel.m in Sources */,
 				9F88E7182183574E009BD51D /* UIImage+ImageSize.m in Sources */,
+				9F202D8B2185341E00091DBE /* AnswerOptionTableViewCell.m in Sources */,
+				9F202D8D2185341E00091DBE /* AnswerCompletionResultTableViewCell.m in Sources */,
+				9F202D6B2185341E00091DBE /* YJAnswerPopCollectionViewCell.m in Sources */,
 				9F88E76A21835B73009BD51D /* NSURLResponse+Data.m in Sources */,
 				9F88E6FF21835727009BD51D /* JLMImagePicker.m in Sources */,
 				9F88E6C42183570A009BD51D /* TLCCurrentCityCell.m in Sources */,
 				9FEB11CD218426A1009565E6 /* MRUserSystemInformationVC.m in Sources */,
 				9FEB115A218414E1009565E6 /* MRUserRegisterTwoView.m in Sources */,
 				9F88E71C2183574E009BD51D /* SGQRCodeGenerateManager.m in Sources */,
+				9F202D842185341E00091DBE /* AnswerModel.m in Sources */,
+				9F202D702185341E00091DBE /* MYPresentationController.m in Sources */,
 				9FEB11A221841C41009565E6 /* NSDictionary+MRTool.m in Sources */,
 				9F88E76921835B73009BD51D /* JxbBaseVC.m in Sources */,
 				9FEB1150218414E1009565E6 /* MRUserRegisterOneVC.m in Sources */,
@@ -1108,24 +1386,30 @@
 				9F88E77621835B73009BD51D /* JxbCrashVC.m in Sources */,
 				9FEB1154218414E1009565E6 /* MRUserRegisterTwoVC.m in Sources */,
 				9F88E77321835B73009BD51D /* NSURLSessionTask+Data.m in Sources */,
+				9F202D712185341E00091DBE /* MYPresentedController.m in Sources */,
 				9FEB117821841AF0009565E6 /* MRRequsetBaseModel.m in Sources */,
 				9F88E76F21835B73009BD51D /* JxbResponseVC.m in Sources */,
 				9FEB117721841AF0009565E6 /* MRBaseTabBarController.m in Sources */,
 				9F88E74021835862009BD51D /* YSTabBarController.m in Sources */,
 				9F88E72121835757009BD51D /* SexPickerTool.m in Sources */,
 				9FEB117521841AF0009565E6 /* MRProgressLayer.m in Sources */,
+				9F202D802185341E00091DBE /* QuestionListModel.m in Sources */,
 				9FEB117421841AF0009565E6 /* MRBaseViewController.m in Sources */,
 				9F88E6C12183570A009BD51D /* TLCity.m in Sources */,
 				9FEB11D0218426A7009565E6 /* MRUserSystemInformationCell.m in Sources */,
 				9F88E77021835B73009BD51D /* JxbDebugVC.m in Sources */,
+				9F202D8A2185341E00091DBE /* AnswerJudgeTableViewCell.m in Sources */,
+				9F202D7B2185341E00091DBE /* YJ_GCDTimerManager.m in Sources */,
 				9FEB117921841AF0009565E6 /* YSPublicLocation.m in Sources */,
 				9FEB11D821842725009565E6 /* MRUserShowOrderNumView.m in Sources */,
 				9FEB119D21841C41009565E6 /* UITextView+MRPlaceHolder.m in Sources */,
 				9FEB11BF218425CD009565E6 /* MRUserModel.m in Sources */,
+				9F202D872185341E00091DBE /* AnswerDetailedTableViewCell.m in Sources */,
 				9F88E6C32183570A009BD51D /* TLCityGroupCell.m in Sources */,
 				9FEB121021842C68009565E6 /* MRApartmentViewController.m in Sources */,
 				9F88E6FE21835727009BD51D /* VPImageCropperViewController.m in Sources */,
 				9FEB11C521842606009565E6 /* MRShopHeaderCell.m in Sources */,
+				9F202D7A2185341E00091DBE /* NSString+StringSize.m in Sources */,
 				9FEB119C21841C41009565E6 /* NSDate+MRTool.m in Sources */,
 				9FFE5030218484F50052E57F /* MRAppraiseMyselfCell.m in Sources */,
 				9FEB11F021842A0E009565E6 /* MRUserShowImageCell.m in Sources */,

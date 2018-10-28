@@ -64,7 +64,7 @@
         _starsControl = [[CDZStarsControl alloc] initWithFrame:CGRectMake(30, CGRectGetMaxY(self.skillLab.frame)+10, AlertW-60 , 100) stars:5 starSize:CGSizeMake(40, 40) noramlStarImage:[UIImage imageNamed:@"star_normal"] highlightedStarImage:[UIImage imageNamed:@"star_highlighted"]];
         _starsControl.delegate = self;
         _starsControl.allowFraction = YES;
-        _starsControl.score = 2.6f;
+      self.score= _starsControl.score = 2.6f;
     }
     return _starsControl;
 }
