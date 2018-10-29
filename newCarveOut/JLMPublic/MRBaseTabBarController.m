@@ -30,7 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initViewControllers];
-    [MRBaseTabBarController shardManager].tabBar.itemTitleColor = kSubtitleColor;
+    [MRBaseTabBarController shardManager].tabBar.itemTitleColor = [UIColor redColor];
     [MRBaseTabBarController shardManager].tabBar.itemTitleSelectedColor = kTabSelectColor;
     [MRBaseTabBarController shardManager].view.height = TabbarHeight;
 

@@ -362,7 +362,7 @@
     _totalTime = totalTime;
     //通知主线程刷新
     dispatch_async(dispatch_get_main_queue(), ^{
-        //回调或者说是通知主线程刷新，
+        //回调或者说是通知主线程jia刷新，
         self.navigationItem.title = [self handleTime:totalTime];
     });
     
@@ -521,6 +521,11 @@
     }];
     
     NSLog(@"%@",mudict);
+    
+    
+    
+    [self getLoginedController];
+    
 }
 
 // 递归的方式获取所有大题参数值

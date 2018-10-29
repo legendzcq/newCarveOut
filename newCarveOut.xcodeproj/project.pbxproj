@@ -59,6 +59,7 @@
 		9F4CA1CF21834C8C00A7D93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4CA1CE21834C8C00A7D93E /* Assets.xcassets */; };
 		9F4CA1D221834C8C00A7D93E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4CA1D021834C8C00A7D93E /* LaunchScreen.storyboard */; };
 		9F4CA1D521834C8C00A7D93E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4CA1D421834C8C00A7D93E /* main.m */; };
+		9F71A4CF2185BB9D00CE42CD /* JLMRootNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F71A4CD2185BB9D00CE42CD /* JLMRootNaviController.m */; };
 		9F88E6B1218356F6009BD51D /* LaunchIntroductionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F88E6AF218356F6009BD51D /* LaunchIntroductionView.m */; };
 		9F88E6C12183570A009BD51D /* TLCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F88E6B42183570A009BD51D /* TLCity.m */; };
 		9F88E6C22183570A009BD51D /* CityData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F88E6B52183570A009BD51D /* CityData.plist */; };
@@ -273,6 +274,8 @@
 		9F4CA1D121834C8C00A7D93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F4CA1D321834C8C00A7D93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F4CA1D421834C8C00A7D93E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F71A4CD2185BB9D00CE42CD /* JLMRootNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMRootNaviController.m; sourceTree = "<group>"; };
+		9F71A4CE2185BB9D00CE42CD /* JLMRootNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMRootNaviController.h; sourceTree = "<group>"; };
 		9F88E6AF218356F6009BD51D /* LaunchIntroductionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchIntroductionView.m; sourceTree = "<group>"; };
 		9F88E6B0218356F6009BD51D /* LaunchIntroductionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchIntroductionView.h; sourceTree = "<group>"; };
 		9F88E6B32183570A009BD51D /* TLCityPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCityPickerController.h; sourceTree = "<group>"; };
@@ -797,6 +800,8 @@
 		9F88E68B21835695009BD51D /* JLMPublic */ = {
 			isa = PBXGroup;
 			children = (
+				9F71A4CE2185BB9D00CE42CD /* JLMRootNaviController.h */,
+				9F71A4CD2185BB9D00CE42CD /* JLMRootNaviController.m */,
 				9F11864D2183BFB500E8250E /* MRBaseUIView.h */,
 				9FEB121A21842ED8009565E6 /* MRBaseUIView.m */,
 				9FEB116021841AEE009565E6 /* LaunchScreen.storyboard */,
@@ -1401,6 +1406,7 @@
 				9F202D8A2185341E00091DBE /* AnswerJudgeTableViewCell.m in Sources */,
 				9F202D7B2185341E00091DBE /* YJ_GCDTimerManager.m in Sources */,
 				9FEB117921841AF0009565E6 /* YSPublicLocation.m in Sources */,
+				9F71A4CF2185BB9D00CE42CD /* JLMRootNaviController.m in Sources */,
 				9FEB11D821842725009565E6 /* MRUserShowOrderNumView.m in Sources */,
 				9FEB119D21841C41009565E6 /* UITextView+MRPlaceHolder.m in Sources */,
 				9FEB11BF218425CD009565E6 /* MRUserModel.m in Sources */,
@@ -1556,7 +1562,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YNLT3B3J7K;
+				DEVELOPMENT_TEAM = JMPT7PHM2C;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = newCarveOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1575,7 +1581,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YNLT3B3J7K;
+				DEVELOPMENT_TEAM = JMPT7PHM2C;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = newCarveOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

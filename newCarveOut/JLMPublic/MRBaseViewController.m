@@ -8,6 +8,7 @@
 
 #import "MRBaseViewController.h"
 #import "MRBaseTabBarController.h"
+#import "JLMRootNaviController.h"
 @interface MRBaseViewController ()
 @end
 
@@ -252,7 +253,9 @@
 - (void)getLoginedController {
     //已登录
     MRBaseTabBarController *controller = [[MRBaseTabBarController alloc] init];
-    controller.selectedControllerIndex = 2;
+    JLMRootNaviController *naviVc = [[JLMRootNaviController alloc] initWithRootViewController:controller];
+    naviVc.navigationBarHidden = YES;
+    JLMWindow.rootViewController = naviVc;
 }
 - (void)setNavigationControllersWithVC:(NSString*)classString{
     Class vcClass = NSClassFromString(classString);

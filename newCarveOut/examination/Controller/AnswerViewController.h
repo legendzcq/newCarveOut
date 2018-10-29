@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface AnswerViewController : UIViewController //答题界面
+#import "MRBaseViewController.h"
+@interface AnswerViewController : MRBaseViewController //答题界面
 
 @property (nonatomic,copy) NSString *name;
-
+/**
+ 交卷
+ */
+@property (nonatomic, copy, nullable) void(^assignmentChange)(AnswerViewController * asset, id error);
 @end
